@@ -1,0 +1,22 @@
+$desk: 100 / 1920;
+$mob: 100 / 414;
+@font-face {
+    font-family: Roboto-Regular;
+    src: url("./Roboto-Regular.ttf");
+}
+.appBar {
+    position: relative !important;
+}
+.title {
+    flex: 1;
+}
+.MuiDialogContent-root {
+    overflow: unset !important;
+}
+.MuiDialogActions-root {
+    justify-content: center !important;
+}
+.MuiDialog-paperFullScreen {
+    width: 85% !important;
+    height: 80% !important;
+}

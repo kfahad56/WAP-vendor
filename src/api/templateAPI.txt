@@ -1,0 +1,50 @@
+/*
+
+
+Callback pattern,
+
+function async functionname(param1, param2, param3, callBack1, callBack2, callBack3){
+    const response = await fetch(); //-----
+    response.ok();
+    if(response.status === 200){
+        const json = response.json()
+        callBack1(json.token, json.refresh);
+    }
+    else if (response.status === 404){
+        const json = response.json();
+        // json.details => errormessage in string format from backend
+        callBack2(json.details);
+    }
+    else if (response.status === 422){
+        const json = response.json();
+
+        // json.paramName => name of the parameter that is invalid
+        // json.paramMessage => error message of parameter
+        const msg = "Error in param " + json.paramName + ":" + json.paramMessage;
+        callBack2(msg);
+    }
+    // API call completed
+    callback1(); // -> function call
+}
+
+
+function main(){
+    line1
+    line2
+    console.log("here1");
+    const callable = (token, refreshToken) => {
+        console.log("Success");
+    };
+    const callable2 = (msg) => {
+        console.log("Error:" + msg);
+    };
+    functionname(1,2,3,callable, callable2, callable2); //--->
+    line3
+    console.log("here2");
+}
+
+here1
+here3
+here
+
+*/

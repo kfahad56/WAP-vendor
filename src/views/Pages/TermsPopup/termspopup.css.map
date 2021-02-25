@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,UAAU;EACN,WAAW,EAAE,cAAc;EAC3B,GAAG,EAAE,2BAA2B;;;AAEpC,AAAA,OAAO,CAAC;EACJ,QAAQ,EAAE,mBAAmB;CAChC;;AACD,AAAA,MAAM,CAAC;EACH,IAAI,EAAE,CAAC;CACV;;AACD,AAAA,sBAAsB,CAAC;EACnB,QAAQ,EAAE,gBAAgB;CAC7B;;AACD,AAAA,sBAAsB,CAAC;EACnB,eAAe,EAAE,iBAAiB;CACrC;;AACD,AAAA,0BAA0B,CAAC;EACvB,KAAK,EAAE,cAAc;EACrB,MAAM,EAAE,cAAc;CACzB",
+    "sources": [
+        "termspopup.scss"
+    ],
+    "names": [],
+    "file": "termspopup.css"
+}
