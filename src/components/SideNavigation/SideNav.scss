@@ -1,0 +1,136 @@
+$mob: 100 / 414;
+
+@media only screen and (max-width: 480px) {
+    .SideNavbar{
+        width: 100%;
+        height: 100%;
+        top: -21;
+        position: fixed;
+        z-index: 123;
+        .closeButtonContainer {
+            position: relative;
+            top: 46 * $mob + vw;
+            // right: 43 * $mob + vw;
+            width: 17 * $mob + vw;
+            height: 17 * $mob + vw;
+            left: 376 * $mob + vw;
+            z-index: 1;
+            cursor: pointer;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .UserProfile1 { 
+            display: flex;
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+            z-index: 111;
+            // cursor: pointer;
+            left: 293 * $mob + vw;
+            top: 79 * $mob + vw;
+            margin-top: 25px;
+            width: 162 * $mob + vw;
+            height: 45 * $mob + vw;
+            // background: #0055FF 0% 0% no-repeat padding-box;
+            border-radius: 7px;
+            // opacity: 1;
+            .userImage {
+                width: 16 * $mob + vw;
+                height: 16 * $mob + vw;
+                margin-right: 11 * $mob + vw;
+                top: 14 * $mob + vw;
+                opacity: 1;
+                // color: white;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .signInText {
+                width: 114px;
+                font-size: 19 * $mob + vw;
+                margin-left: 38 $mob + vw;
+                color: #002366;
+                text-align: left;
+                letter-spacing: 0px;
+                color:#002366;
+                opacity: 1;
+            }
+        }
+        .UserProfile { 
+            display: flex;
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+            z-index: 111;
+            // cursor: pointer;
+            left: 235 * $mob + vw;
+            top: 79 * $mob + vw;
+            margin-top: 25px;
+            width: 162 * $mob + vw;
+            height: 45 * $mob + vw;
+            background: #0055FF 0% 0% no-repeat padding-box;
+            border-radius: 7px;
+            // opacity: 1;
+            .userImage {
+                width: 16 * $mob + vw;
+                height: 16 * $mob + vw;
+                margin-right: 11 * $mob + vw;
+                top: 14 * $mob + vw;
+                opacity: 1;
+                color: white;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .signInText {
+                width: 114px;
+                font-size: 19 * $mob + vw;
+                margin-left: 38 $mob + vw;
+                color: #002366;
+                text-align: left;
+                letter-spacing: 0px;
+                color: #FFFFFF;
+                opacity: 1;
+            }
+        }
+    .SideBarItems {
+        position: relative;
+        width: 414 * $mob + vw;
+        height: 1010 * $mob + vw;
+        background: #f9f9f9 0% 0% no-repeat padding-box;
+        opacity: 1;
+        ul {
+            display: inline-block;
+            margin-top: 200 * $mob + vw;
+            li {
+                display: flex;
+                padding-top: 30 * $mob + vw;
+                font-size: 28 * $mob + vw;
+                color: #002366;
+                height: 37 *  $mob + vw;
+                margin-left: 25.5 * $mob + vw;
+                margin-right: 25.5 * $mob + vw;
+                font-family: Roboto-regular;
+                cursor: pointer;
+            }
+        }
+    } 
+}}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+   .SideNavbar{
+    display: none;
+   }
+}
+
+@media only screen and (min-width: 1025px) {
+.SideNavbar{
+    display: none;
+}
+}

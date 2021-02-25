@@ -1,0 +1,415 @@
+$desk: 100 / 1920;
+$tablet: 100 / 768;
+$mob: 100 / 414;
+.footerContainer {
+    position: relative;
+    width: 100%;
+    height: 686 * $desk + vw;
+    background-color: #ffffff;
+    display: flex;
+    .rightSection {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        .upperSection {
+            margin-top: 155 * $desk + vw;
+            margin-left: 139 * $desk + vw;
+            display: flex;
+            justify-content: space-evenly;
+            .linksContainer {
+                h3 {
+                    font-family: Roboto-regular;
+                    font-size: 25 * $desk + vw;
+                    margin-bottom: 10 * $desk + vw;
+                }
+                ul,
+                li {
+                    list-style: none;
+                    font-family: Roboto-regular;
+                    font-size: 22 * $desk + vw;
+                    padding-top: 8 * $desk + vw;
+                    padding-bottom: 8 * $desk + vw;
+                    cursor: pointer;
+                }
+            }
+            .linksAdjust2 {
+                margin-left: 146 * $desk + vw;
+            }
+            .linksAdjust3 {
+                margin-left: 164 * $desk + vw;
+            }
+        }
+        .lowerSection {
+            margin-top: 67 * $desk + vw;
+            margin-left: 139 * $desk + vw;
+            .lowerText {
+                font-family: Roboto-regular;
+                font-size: 22 * $desk + vw;
+                margin-bottom: 23 * $desk + vw;
+            }
+            .numberAdjust {
+                color: #0055ff;
+            }
+        }
+    }
+    .middleSection {
+        position: absolute;
+        width: 100%;
+        bottom: 5 * $desk + vw;
+        display: flex;
+        justify-content: center;
+        font-family: Roboto-regular;
+        font-size: 21 * $desk + vw;
+    }
+    .leftSection {
+        margin-top: 155 * $desk + vw;
+        margin-left: 620 * $desk + vw;
+        .subscribeContainer {
+            .socicalMediaText {
+                position: relative;
+                font-size: 25 * $desk + vw;
+                color: #000000;
+                font-family: Roboto-regular;
+                margin-bottom: 16 * $desk + vw;
+            }
+            .socialMediaContainer {
+                margin-bottom: 103 * $desk + vw;
+                .fab {
+                    color: #000000;
+                    font-size: 30 * $desk + vw;
+                    margin-right: 87 * $desk + vw;
+                    cursor: pointer;
+                }
+            }
+            .subscribeHeadingText {
+                color: #000000;
+                font-size: 18 * $desk + vw;
+                font-family: Roboto-regular;
+                font-weight: 600;
+                margin-bottom: 28 * $desk + vw;
+            }
+            .subscribeInputContainer {
+                // width: 388 * $desk + vw;
+                height: 56 * $desk + vw;
+                display: flex;
+                align-items: center;
+                .MuiOutlinedInput-input {
+                    font-family: Roboto-regular;
+                    font-size: 14 * $desk + vw;
+                }
+                .MuiInputBase-fullWidth {
+                    width: 288 * $desk + vw;
+                }
+                .MuiOutlinedInput-root {
+                    border-radius: 0;
+                    width: 288 * $desk + vw;
+                    // margin-right: -10 * $desk + vw;
+                }
+                .MuiFormLabel-root {
+                    color: #000000;
+                    font-size: 22 * $desk + vw;
+                }
+                .MuiOutlinedInput-notchedOutline {
+                    border-color: #000000;
+                }
+                .rightArrowContainer {
+                    width: 27 * $desk + vw;
+                    height: 27 * $desk + vw;
+                    margin-left: -35 * $desk + vw;
+                    z-index: 1;
+                    cursor: pointer;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 480px) {
+    .footerContainer {
+        position: relative;
+        width: 100%;
+        height: 1223 * $mob + vw;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column-reverse;
+        .rightSection {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            top: -260 * $mob + vw;
+            z-index: 1;
+            .upperSection {
+                margin-top: 48 * $mob + vw;
+                margin-left: 29 * $mob + vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                .linksContainer {
+                    h3 {
+                        font-family: Roboto-regular;
+                        font-size: 23 * $mob + vw;
+                        // margin-bottom: -20 * $mob + vw;
+                    }
+                    ul,
+                    li {
+                        list-style: none;
+                        font-family: Roboto-regular;
+                        font-size: 19 * $mob + vw;
+                        padding-top: 10 * $mob + vw;
+                        padding-bottom: 10 * $mob + vw;
+                        cursor: pointer;
+                    }
+                }
+                .linksAdjust2 {
+                    margin-left: 0 * $mob + vw;
+                }
+                .linksAdjust3 {
+                    margin-left: 0 * $mob + vw;
+                }
+            }
+            .lowerSection {
+                position: absolute;
+                bottom: -157 * $mob + vw;
+                margin: auto;
+                text-align: center;
+                // left: 80 * $mob + vw;
+                .lowerText {
+                    font-family: Roboto-regular;
+                    font-size: 20 * $mob + vw;
+                    margin-bottom: 23 * $mob + vw;
+                    line-height: 27 * $mob + vw;
+                }
+                .mobLowerTextAdjust {
+                    font-size: 20 * $mob + vw;
+                }
+            }
+        }
+        .middleSection {
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            bottom: 34 * $mob + vw;
+            display: flex;
+            justify-content: center;
+            font-family: Roboto-regular;
+            font-size: 18 * $mob + vw;
+        }
+        .leftSection {
+            position: absolute;
+            width: 100%;
+            // height: 200 * $mob + vw;
+            top: 0;
+            margin-top: 0 !important;
+            margin-left: 0;
+            .subscribeContainer {
+                margin-left: 0 * $mob + vw;
+                margin-top: 57 * $mob + vw;
+                .socicalMediaText {
+                    position: relative;
+                    text-align: center;
+                    font-size: 20 * $mob + vw;
+                    color: #000000;
+                    font-family: Roboto-regular;
+                    margin-bottom: 24 * $mob + vw;
+                }
+                .socialMediaContainer {
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 54 * $mob + vw;
+                    .fab {
+                        color: #000000;
+                        font-size: 25 * $mob + vw;
+                        margin-right: 35 * $mob + vw;
+                        margin-left: 35 * $mob + vw;
+                        cursor: pointer;
+                    }
+                }
+                .subscribeHeadingText {
+                    color: #000000;
+                    text-align: center;
+                    font-size: 18 * $mob + vw;
+                    font-family: Roboto-regular;
+                    font-weight: 600;
+                    margin-bottom: 27 * $mob + vw;
+                }
+                .subscribeInputContainer {
+                    // width: 388 * $mob + vw;
+                    height: 56 * $mob + vw;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .MuiOutlinedInput-input {
+                        font-family: Roboto-regular;
+                        font-size: 14 * $mob + vw;
+                    }
+                    .MuiFormControl-fullWidth {
+                        width: 288 * $mob + vw;
+                    }
+                    .MuiInputBase-fullWidth {
+                        width: 288 * $mob + vw;
+                    }
+                    .MuiOutlinedInput-root {
+                        border-radius: 0;
+                        width: 288 * $mob + vw;
+                        // margin-bottom: 20 * $mob + vw;
+                    }
+                    .MuiFormLabel-root {
+                        color: #000000;
+                        font-size: 22 * $mob + vw;
+                    }
+                    .rightArrowContainer {
+                        width: 27 * $mob + vw;
+                        height: 27 * $mob + vw;
+                        margin-left: 15 * $mob + vw;
+                        margin-top: 10 * $mob + vw;
+                        cursor: pointer;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .footerContainer {
+        position: relative;
+        width: 100%;
+        height: 679 * $tablet + vw;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column-reverse;
+        .rightSection {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            top: -100 * $tablet + vw;
+            .upperSection {
+                margin-top: 15 * $tablet + vw;
+                margin-left: 39 * $tablet + vw;
+                display: flex;
+                justify-content: space-evenly;
+                .linksContainer {
+                    h3 {
+                        font-family: Roboto-regular;
+                        font-size: 23 * $tablet + vw;
+                        // margin-bottom: -20 * $tablet + vw;
+                    }
+                    ul,
+                    li {
+                        list-style: none;
+                        font-family: Roboto-regular;
+                        font-size: 19 * $tablet + vw;
+                        padding-top: 9.5 * $tablet + vw;
+                        padding-bottom: 9.5 * $tablet + vw;
+                        cursor: pointer;
+                    }
+                }
+                .linksAdjust2 {
+                    margin-left: 82 * $tablet + vw;
+                }
+                .linksAdjust3 {
+                    margin-left: 96 * $tablet + vw;
+                }
+            }
+            .lowerSection {
+                position: absolute;
+                top: -255 * $tablet + vw;
+                right: 65 * $tablet + vw;
+                z-index: 1;
+                .lowerText {
+                    font-family: Roboto-regular;
+                    font-size: 22 * $tablet + vw;
+                    margin-bottom: 23 * $tablet + vw;
+                }
+            }
+        }
+        .middleSection {
+            position: absolute;
+            width: 100%;
+            bottom: 13 * $tablet + vw;
+            display: flex;
+            justify-content: center;
+            font-family: Roboto-regular;
+            font-size: 18 * $tablet + vw;
+        }
+        .leftSection {
+            position: absolute;
+            width: 100%;
+            height: 244 * $tablet + vw;
+            top: 0;
+            margin-top: 0 !important;
+            margin-left: 0;
+            background-color: #fbfbfb;
+            .subscribeContainer {
+                margin-left: 40 * $tablet + vw;
+                .socicalMediaText {
+                    position: relative;
+                    font-size: 20 * $tablet + vw;
+                    color: #000000;
+                    font-family: Roboto-regular;
+                    margin-bottom: 19 * $tablet + vw;
+                }
+                .socialMediaContainer {
+                    margin-bottom: 40 * $tablet + vw;
+                    .fab {
+                        color: #000000;
+                        font-size: 25 * $tablet + vw;
+                        margin-right: 58 * $tablet + vw;
+                        cursor: pointer;
+                    }
+                }
+                .subscribeHeadingText {
+                    color: #000000;
+                    font-size: 15 * $tablet + vw;
+                    font-family: Roboto-regular;
+                    font-weight: 600;
+                    margin-bottom: 15 * $tablet + vw;
+                }
+                .subscribeInputContainer {
+                    // width: 388 * $tablet + vw;
+                    height: 56 * $tablet + vw;
+                    display: flex;
+                    align-items: center;
+                    .MuiOutlinedInput-input {
+                        font-family: Roboto-regular;
+                        font-size: 11 * $tablet + vw;
+                    }
+                    .MuiFormControl-fullWidth {
+                        width: 238 * $tablet + vw;
+                    }
+                    // .MuiInputBase-fullWidth {
+                    //     width: 268 * $tablet + vw;
+                    // }
+                    .MuiOutlinedInput-root {
+                        border-radius: 0;
+                        width: 238 * $tablet + vw;
+                        // margin-bottom: 20 * $tablet + vw;
+                    }
+                    .MuiFormLabel-root {
+                        color: #000000;
+                        font-size: 15 * $tablet + vw;
+                    }
+                    .rightArrowContainer {
+                        width: 27 * $tablet + vw;
+                        height: 27 * $tablet + vw;
+                        margin-top: 10 * $tablet + vw;
+                        margin-left: 15 * $tablet + vw;
+                        cursor: pointer;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1025px) {
+}

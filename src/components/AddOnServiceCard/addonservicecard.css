@@ -1,0 +1,35 @@
+.addOnServiceCardContainer {
+  position: relative;
+}
+
+.addOnServiceCardContainer .addOnServiceSlides {
+  width: 40.88542vw;
+  height: 18.33333vw;
+  background: rgba(248, 248, 248, 0.55);
+}
+
+.addOnServiceCardContainer .addOnServiceSlides .slidesSection {
+  display: flex;
+  flex-wrap: wrap;
+  width: 46.875vw;
+  margin-left: 2.08333vw;
+}
+
+@media only screen and (max-width: 480px) {
+  .addOnServiceCardContainer {
+    position: relative;
+  }
+  .addOnServiceCardContainer .addOnServiceSlides {
+    width: 100vw;
+    height: -webkit-fill-available;
+    background: rgba(248, 248, 248, 0.55);
+    display: inline-flex;
+  }
+  .addOnServiceCardContainer .addOnServiceSlides .slidesSection {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    overflow: scroll;
+  }
+}
+/*# sourceMappingURL=addonservicecard.css.map */

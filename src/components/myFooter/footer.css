@@ -1,0 +1,487 @@
+.footerContainer {
+  position: relative;
+  width: 100%;
+  height: 35.72917vw;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footerContainer .rightSection {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footerContainer .rightSection .upperSection {
+  margin-top: 8.07292vw;
+  margin-left: 7.23958vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footerContainer .rightSection .upperSection .linksContainer h3 {
+  font-family: Roboto-regular;
+  font-size: 1.30208vw;
+  margin-bottom: 0.52083vw;
+}
+
+.footerContainer .rightSection .upperSection .linksContainer ul,
+.footerContainer .rightSection .upperSection .linksContainer li {
+  list-style: none;
+  font-family: Roboto-regular;
+  font-size: 1.14583vw;
+  padding-top: 0.41667vw;
+  padding-bottom: 0.41667vw;
+  cursor: pointer;
+}
+
+.footerContainer .rightSection .upperSection .linksAdjust2 {
+  margin-left: 7.60417vw;
+}
+
+.footerContainer .rightSection .upperSection .linksAdjust3 {
+  margin-left: 8.54167vw;
+}
+
+.footerContainer .rightSection .lowerSection {
+  margin-top: 3.48958vw;
+  margin-left: 7.23958vw;
+}
+
+.footerContainer .rightSection .lowerSection .lowerText {
+  font-family: Roboto-regular;
+  font-size: 1.14583vw;
+  margin-bottom: 1.19792vw;
+}
+
+.footerContainer .rightSection .lowerSection .numberAdjust {
+  color: #0055ff;
+}
+
+.footerContainer .middleSection {
+  position: absolute;
+  width: 100%;
+  bottom: 0.26042vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Roboto-regular;
+  font-size: 1.09375vw;
+}
+
+.footerContainer .leftSection {
+  margin-top: 8.07292vw;
+  margin-left: 32.29167vw;
+}
+
+.footerContainer .leftSection .subscribeContainer .socicalMediaText {
+  position: relative;
+  font-size: 1.30208vw;
+  color: #000000;
+  font-family: Roboto-regular;
+  margin-bottom: 0.83333vw;
+}
+
+.footerContainer .leftSection .subscribeContainer .socialMediaContainer {
+  margin-bottom: 5.36458vw;
+}
+
+.footerContainer .leftSection .subscribeContainer .socialMediaContainer .fab {
+  color: #000000;
+  font-size: 1.5625vw;
+  margin-right: 4.53125vw;
+  cursor: pointer;
+}
+
+.footerContainer .leftSection .subscribeContainer .subscribeHeadingText {
+  color: #000000;
+  font-size: 0.9375vw;
+  font-family: Roboto-regular;
+  font-weight: 600;
+  margin-bottom: 1.45833vw;
+}
+
+.footerContainer .leftSection .subscribeContainer .subscribeInputContainer {
+  height: 2.91667vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footerContainer .leftSection .subscribeContainer .subscribeInputContainer .MuiOutlinedInput-input {
+  font-family: Roboto-regular;
+  font-size: 0.72917vw;
+}
+
+.footerContainer .leftSection .subscribeContainer .subscribeInputContainer .MuiInputBase-fullWidth {
+  width: 15vw;
+}
+
+.footerContainer .leftSection .subscribeContainer .subscribeInputContainer .MuiOutlinedInput-root {
+  border-radius: 0;
+  width: 15vw;
+}
+
+.footerContainer .leftSection .subscribeContainer .subscribeInputContainer .MuiFormLabel-root {
+  color: #000000;
+  font-size: 1.14583vw;
+}
+
+.footerContainer .leftSection .subscribeContainer .subscribeInputContainer .MuiOutlinedInput-notchedOutline {
+  border-color: #000000;
+}
+
+.footerContainer .leftSection .subscribeContainer .subscribeInputContainer .rightArrowContainer {
+  width: 1.40625vw;
+  height: 1.40625vw;
+  margin-left: -1.82292vw;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.footerContainer .leftSection .subscribeContainer .subscribeInputContainer .rightArrowContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  .footerContainer {
+    position: relative;
+    width: 100%;
+    height: 295.41063vw;
+    background-color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .footerContainer .rightSection {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    top: -62.80193vw;
+    z-index: 1;
+  }
+  .footerContainer .rightSection .upperSection {
+    margin-top: 11.5942vw;
+    margin-left: 7.00483vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .footerContainer .rightSection .upperSection .linksContainer h3 {
+    font-family: Roboto-regular;
+    font-size: 5.55556vw;
+  }
+  .footerContainer .rightSection .upperSection .linksContainer ul,
+  .footerContainer .rightSection .upperSection .linksContainer li {
+    list-style: none;
+    font-family: Roboto-regular;
+    font-size: 4.58937vw;
+    padding-top: 2.41546vw;
+    padding-bottom: 2.41546vw;
+    cursor: pointer;
+  }
+  .footerContainer .rightSection .upperSection .linksAdjust2 {
+    margin-left: 0vw;
+  }
+  .footerContainer .rightSection .upperSection .linksAdjust3 {
+    margin-left: 0vw;
+  }
+  .footerContainer .rightSection .lowerSection {
+    position: absolute;
+    bottom: -37.92271vw;
+    margin: auto;
+    text-align: center;
+  }
+  .footerContainer .rightSection .lowerSection .lowerText {
+    font-family: Roboto-regular;
+    font-size: 4.83092vw;
+    margin-bottom: 5.55556vw;
+    line-height: 6.52174vw;
+  }
+  .footerContainer .rightSection .lowerSection .mobLowerTextAdjust {
+    font-size: 4.83092vw;
+  }
+  .footerContainer .middleSection {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 8.21256vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: Roboto-regular;
+    font-size: 4.34783vw;
+  }
+  .footerContainer .leftSection {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    margin-top: 0 !important;
+    margin-left: 0;
+  }
+  .footerContainer .leftSection .subscribeContainer {
+    margin-left: 0vw;
+    margin-top: 13.76812vw;
+  }
+  .footerContainer .leftSection .subscribeContainer .socicalMediaText {
+    position: relative;
+    text-align: center;
+    font-size: 4.83092vw;
+    color: #000000;
+    font-family: Roboto-regular;
+    margin-bottom: 5.7971vw;
+  }
+  .footerContainer .leftSection .subscribeContainer .socialMediaContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 13.04348vw;
+  }
+  .footerContainer .leftSection .subscribeContainer .socialMediaContainer .fab {
+    color: #000000;
+    font-size: 6.03865vw;
+    margin-right: 8.45411vw;
+    margin-left: 8.45411vw;
+    cursor: pointer;
+  }
+  .footerContainer .leftSection .subscribeContainer .subscribeHeadingText {
+    color: #000000;
+    text-align: center;
+    font-size: 4.34783vw;
+    font-family: Roboto-regular;
+    font-weight: 600;
+    margin-bottom: 6.52174vw;
+  }
+  .footerContainer .leftSection .subscribeContainer .subscribeInputContainer {
+    height: 13.52657vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footerContainer .leftSection .subscribeContainer .subscribeInputContainer .MuiOutlinedInput-input {
+    font-family: Roboto-regular;
+    font-size: 3.38164vw;
+  }
+  .footerContainer .leftSection .subscribeContainer .subscribeInputContainer .MuiFormControl-fullWidth {
+    width: 69.56522vw;
+  }
+  .footerContainer .leftSection .subscribeContainer .subscribeInputContainer .MuiInputBase-fullWidth {
+    width: 69.56522vw;
+  }
+  .footerContainer .leftSection .subscribeContainer .subscribeInputContainer .MuiOutlinedInput-root {
+    border-radius: 0;
+    width: 69.56522vw;
+  }
+  .footerContainer .leftSection .subscribeContainer .subscribeInputContainer .MuiFormLabel-root {
+    color: #000000;
+    font-size: 5.31401vw;
+  }
+  .footerContainer .leftSection .subscribeContainer .subscribeInputContainer .rightArrowContainer {
+    width: 6.52174vw;
+    height: 6.52174vw;
+    margin-left: 3.62319vw;
+    margin-top: 2.41546vw;
+    cursor: pointer;
+  }
+  .footerContainer .leftSection .subscribeContainer .subscribeInputContainer .rightArrowContainer img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .footerContainer {
+    position: relative;
+    width: 100%;
+    height: 88.41146vw;
+    background-color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .footerContainer .rightSection {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    top: -13.02083vw;
+  }
+  .footerContainer .rightSection .upperSection {
+    margin-top: 1.95313vw;
+    margin-left: 5.07812vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .footerContainer .rightSection .upperSection .linksContainer h3 {
+    font-family: Roboto-regular;
+    font-size: 2.99479vw;
+  }
+  .footerContainer .rightSection .upperSection .linksContainer ul,
+  .footerContainer .rightSection .upperSection .linksContainer li {
+    list-style: none;
+    font-family: Roboto-regular;
+    font-size: 2.47396vw;
+    padding-top: 1.23698vw;
+    padding-bottom: 1.23698vw;
+    cursor: pointer;
+  }
+  .footerContainer .rightSection .upperSection .linksAdjust2 {
+    margin-left: 10.67708vw;
+  }
+  .footerContainer .rightSection .upperSection .linksAdjust3 {
+    margin-left: 12.5vw;
+  }
+  .footerContainer .rightSection .lowerSection {
+    position: absolute;
+    top: -33.20312vw;
+    right: 8.46354vw;
+    z-index: 1;
+  }
+  .footerContainer .rightSection .lowerSection .lowerText {
+    font-family: Roboto-regular;
+    font-size: 2.86458vw;
+    margin-bottom: 2.99479vw;
+  }
+  .footerContainer .middleSection {
+    position: absolute;
+    width: 100%;
+    bottom: 1.69271vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: Roboto-regular;
+    font-size: 2.34375vw;
+  }
+  .footerContainer .leftSection {
+    position: absolute;
+    width: 100%;
+    height: 31.77083vw;
+    top: 0;
+    margin-top: 0 !important;
+    margin-left: 0;
+    background-color: #fbfbfb;
+  }
+  .footerContainer .leftSection .subscribeContainer {
+    margin-left: 5.20833vw;
+  }
+  .footerContainer .leftSection .subscribeContainer .socicalMediaText {
+    position: relative;
+    font-size: 2.60417vw;
+    color: #000000;
+    font-family: Roboto-regular;
+    margin-bottom: 2.47396vw;
+  }
+  .footerContainer .leftSection .subscribeContainer .socialMediaContainer {
+    margin-bottom: 5.20833vw;
+  }
+  .footerContainer .leftSection .subscribeContainer .socialMediaContainer .fab {
+    color: #000000;
+    font-size: 3.25521vw;
+    margin-right: 7.55208vw;
+    cursor: pointer;
+  }
+  .footerContainer .leftSection .subscribeContainer .subscribeHeadingText {
+    color: #000000;
+    font-size: 1.95313vw;
+    font-family: Roboto-regular;
+    font-weight: 600;
+    margin-bottom: 1.95313vw;
+  }
+  .footerContainer .leftSection .subscribeContainer .subscribeInputContainer {
+    height: 7.29167vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footerContainer .leftSection .subscribeContainer .subscribeInputContainer .MuiOutlinedInput-input {
+    font-family: Roboto-regular;
+    font-size: 1.43229vw;
+  }
+  .footerContainer .leftSection .subscribeContainer .subscribeInputContainer .MuiFormControl-fullWidth {
+    width: 30.98958vw;
+  }
+  .footerContainer .leftSection .subscribeContainer .subscribeInputContainer .MuiOutlinedInput-root {
+    border-radius: 0;
+    width: 30.98958vw;
+  }
+  .footerContainer .leftSection .subscribeContainer .subscribeInputContainer .MuiFormLabel-root {
+    color: #000000;
+    font-size: 1.95313vw;
+  }
+  .footerContainer .leftSection .subscribeContainer .subscribeInputContainer .rightArrowContainer {
+    width: 3.51563vw;
+    height: 3.51563vw;
+    margin-top: 1.30208vw;
+    margin-left: 1.95313vw;
+    cursor: pointer;
+  }
+  .footerContainer .leftSection .subscribeContainer .subscribeInputContainer .rightArrowContainer img {
+    width: 100%;
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

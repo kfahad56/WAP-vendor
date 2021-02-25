@@ -1,0 +1,103 @@
+.whyHubshubSection {
+  position: relative;
+  margin-left: 10.88542vw;
+}
+
+.whyHubshubSection .Text {
+  font-family: Roboto-regular;
+  font-size: 1.14583vw;
+  margin-bottom: 1.92708vw;
+}
+
+.whyHubshubSection .changeDataSection .hubshubDataSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.97917vw;
+}
+
+.whyHubshubSection .changeDataSection .hubshubDataSection .titleAndIconContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.whyHubshubSection .changeDataSection .hubshubDataSection .titleAndIconContainer .titleImage {
+  width: 2.60417vw;
+  height: 2.60417vw;
+  margin-right: 1.04167vw;
+  cursor: pointer;
+}
+
+.whyHubshubSection .changeDataSection .hubshubDataSection .titleAndIconContainer .titleImage img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.whyHubshubSection .changeDataSection .hubshubDataSection .titleAndIconContainer .inactiveTitleImage {
+  width: 2.60417vw;
+  height: 2.60417vw;
+  margin-right: 1.04167vw;
+  cursor: pointer;
+}
+
+.whyHubshubSection .changeDataSection .hubshubDataSection .titleAndIconContainer .inactiveTitleImage img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.whyHubshubSection .changeDataSection .hubshubDataSection .titleAndIconContainer .dataHeadingText {
+  font-family: Roboto-regular;
+  font-size: 1.14583vw;
+  cursor: pointer;
+}
+
+.whyHubshubSection .changeDataSection .hubshubDataSection .titleAndIconContainer .activeTitle {
+  font-family: Roboto-medium;
+  font-size: 1.14583vw;
+  color: #0055ff;
+  cursor: pointer;
+}
+
+.whyHubshubSection .changeDataSection .hubshubDataSection .dataHeadingText {
+  font-family: Roboto-regular;
+  font-size: 1.14583vw;
+  cursor: pointer;
+}
+
+.whyHubshubSection .changeDataSection .hubshubDataSection .activeTitle {
+  font-family: Roboto-medium;
+  font-size: 1.14583vw;
+  color: #0055ff;
+  cursor: pointer;
+}
+
+.whyHubshubSection .changeDataSection .hubshubDataSection .divideBorder {
+  width: 0.05208vw;
+  height: 2.60417vw;
+  border-left: 0.13021vw solid #000000;
+  margin-left: 1.5625vw;
+  margin-right: 1.5625vw;
+}
+
+.whyHubshubSection .changeDataSection p {
+  font-family: Roboto-regular;
+  font-size: 1.04167vw;
+  width: 37.5vw;
+  line-height: 1.66667vw;
+  margin-bottom: 1.82292vw;
+  color: #707070;
+}
+/*# sourceMappingURL=whyhubshubdata.css.map */

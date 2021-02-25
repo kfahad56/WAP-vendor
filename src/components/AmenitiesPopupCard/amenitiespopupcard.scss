@@ -1,0 +1,9 @@
+$desk: 100 / 1920;
+.amenitiesPopupCardContainer {
+    position: relative;
+    .slideSection {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1041 * $desk + vw;
+    }
+}

@@ -1,0 +1,37 @@
+$desk: 100 / 1920;
+$mob: 100 / 414;
+
+.addOnServiceCardContainer {
+    position: relative;
+    .addOnServiceSlides {
+        width: 785 * $desk + vw;
+        height: 352 * $desk + vw;
+        background: rgba(248, 248, 248, 0.55);
+        .slidesSection {
+            display: flex;
+            flex-wrap: wrap;
+            width: 900 * $desk + vw;
+            margin-left: 40 * $desk + vw;
+        }
+    }
+}
+@media only screen and (max-width: 480px) {
+    .addOnServiceCardContainer {
+        position: relative;
+        .addOnServiceSlides {
+            width: 414 * $mob + vw;
+            // height: 352 * $mob + vw;
+            height: -webkit-fill-available;
+            background: rgba(248, 248, 248, 0.55);
+            display: inline-flex;
+            .slidesSection {
+                display: flex;
+                flex-wrap: wrap;
+                width: 414 * $mob + vw;
+                overflow:scroll;
+                // margin-left: 40 * $mob + vw;
+            }
+        }
+    }
+
+}

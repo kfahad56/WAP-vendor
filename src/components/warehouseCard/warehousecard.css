@@ -1,0 +1,326 @@
+.warehouseCardContainer {
+  position: relative;
+  display: flex;
+  width: 39.0625vw;
+  height: 10.05208vw;
+  background: #ffffff;
+  border: 0.05208vw solid #e4e4e4;
+  border-radius: 0.26042vw;
+  opacity: 0.83;
+  margin-bottom: 1.25vw;
+}
+
+.warehouseCardContainer .leftPart {
+  position: relative;
+  width: 16.14583vw;
+  height: 10.05208vw;
+}
+
+.warehouseCardContainer .leftPart .warehouseImage {
+  width: 16.14583vw;
+  height: 10.05208vw;
+}
+
+.warehouseCardContainer .leftPart .warehouseImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.warehouseCardContainer .leftPart .heartImageContainer {
+  position: absolute;
+  width: 1.14583vw;
+  height: 1.14583vw;
+  background-color: #ffffff;
+  right: 0.57292vw;
+  bottom: 0.72917vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.warehouseCardContainer .leftPart .heartImageContainer .heartImage {
+  width: 0.78125vw;
+  height: 0.72917vw;
+}
+
+.warehouseCardContainer .leftPart .heartImageContainer .heartImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.warehouseCardContainer .rightPart {
+  position: relative;
+}
+
+.warehouseCardContainer .rightPart .dataTopContainer {
+  width: 21.09375vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.98958vw;
+  margin-left: 1.14583vw;
+}
+
+.warehouseCardContainer .rightPart .dataTopContainer h3 {
+  font-family: Roboto-regular;
+  font-size: 1.19792vw;
+}
+
+.warehouseCardContainer .rightPart .dataTopContainer .enquireButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6.19792vw;
+  height: 1.40625vw;
+  background: #0055ff;
+  border-radius: 0.15625vw;
+  cursor: pointer;
+}
+
+.warehouseCardContainer .rightPart .dataTopContainer .enquireButton div {
+  font-family: Roboto-regular;
+  font-size: 0.78125vw;
+  color: #ffffff;
+}
+
+.warehouseCardContainer .rightPart .secondText {
+  font-family: Roboto-regular;
+  font-size: 0.88542vw;
+  margin-top: 0.9375vw;
+  margin-left: 1.14583vw;
+  color: #858585;
+}
+
+.warehouseCardContainer .rightPart .thirdPartContainer {
+  width: 17.08333vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.09375vw;
+  margin-left: 1.14583vw;
+}
+
+.warehouseCardContainer .rightPart .thirdPartContainer .thirdText {
+  font-family: Roboto-regular;
+  font-size: 0.88542vw;
+  font-weight: 600;
+}
+
+.warehouseCardContainer .rightPart .fourtPartContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5625vw;
+  margin-left: 1.14583vw;
+}
+
+.warehouseCardContainer .rightPart .fourtPartContainer .shareText {
+  font-family: Roboto-regular;
+  font-size: 0.67708vw;
+  color: #747474;
+  margin-right: 0.98958vw;
+}
+
+.warehouseCardContainer .rightPart .fourtPartContainer .whatsappImage {
+  width: 1.14583vw;
+  height: 1.14583vw;
+  margin-right: 1.14583vw;
+  cursor: pointer;
+}
+
+.warehouseCardContainer .rightPart .fourtPartContainer .whatsappImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.warehouseCardContainer .rightPart .fourtPartContainer .mailImage {
+  width: 1.14583vw;
+  height: 0.98958vw;
+  margin-right: 12.65625vw;
+  cursor: pointer;
+}
+
+.warehouseCardContainer .rightPart .fourtPartContainer .mailImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.warehouseCardContainer .rightPart .fourtPartContainer .rightArrowContainer {
+  position: relative;
+  width: 1.45833vw;
+  height: 1.45833vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: #ffa702;
+  opacity: 1;
+  border-radius: 50%;
+}
+
+.warehouseCardContainer .rightPart .fourtPartContainer .rightArrowContainer .rightButton {
+  position: absolute;
+  width: 0.72917vw;
+  height: 0.57292vw;
+}
+
+.warehouseCardContainer .rightPart .fourtPartContainer .rightArrowContainer .rightButton img {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  .warehouseCardContainer {
+    position: relative;
+    display: inline-block;
+    width: 82.6087vw;
+    height: 71.25604vw;
+    background: #ffffff;
+    border: 0.24155vw solid #e4e4e4;
+    border-radius: 1.20773vw;
+    opacity: 0.83;
+    margin-bottom: 5.7971vw;
+  }
+  .warehouseCardContainer .leftPart {
+    position: relative;
+    width: 82.6087vw;
+    height: 40.82126vw;
+  }
+  .warehouseCardContainer .leftPart .warehouseImage {
+    width: 82.6087vw;
+    height: 40.82126vw;
+  }
+  .warehouseCardContainer .leftPart .warehouseImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .warehouseCardContainer .leftPart .heartImageContainer {
+    position: absolute;
+    width: 5.31401vw;
+    height: 5.31401vw;
+    background-color: #ffffff;
+    right: 2.657vw;
+    top: 2.41546vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .warehouseCardContainer .leftPart .heartImageContainer .heartImage {
+    width: 3.62319vw;
+    height: 3.38164vw;
+  }
+  .warehouseCardContainer .leftPart .heartImageContainer .heartImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .warehouseCardContainer .rightPart {
+    position: relative;
+    width: 82.6087vw;
+  }
+  .warehouseCardContainer .rightPart .dataTopContainer {
+    width: 82.6087vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.657vw;
+    margin-left: 2.89855vw;
+  }
+  .warehouseCardContainer .rightPart .dataTopContainer h3 {
+    font-family: Roboto-regular;
+    font-size: 3.38164vw;
+  }
+  .warehouseCardContainer .rightPart .dataTopContainer .enquireButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19.32367vw;
+    height: 4.34783vw;
+    background: #0055FF 0% 0% no-repeat padding-box;
+    border-radius: 0.24155vw;
+    transform: translate(-20px, 0px);
+    cursor: pointer;
+  }
+  .warehouseCardContainer .rightPart .dataTopContainer .enquireButton div {
+    font-family: Roboto-regular;
+    font-size: 2.41546vw;
+    color: #ffffff;
+  }
+  .warehouseCardContainer .rightPart .secondText {
+    font-family: Roboto-regular;
+    font-size: 2.657vw;
+    margin-top: 1.93237vw;
+    margin-left: 2.89855vw;
+    color: #858585;
+  }
+  .warehouseCardContainer .rightPart .thirdPartContainer {
+    width: 54.34783vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 11.35266vw;
+  }
+  .warehouseCardContainer .rightPart .thirdPartContainer .thirdText {
+    font-family: Roboto-regular;
+    font-size: 2.657vw;
+    font-weight: 600;
+    height: 3.86473vw;
+    margin-left: 2.41546vw;
+  }
+  .warehouseCardContainer .rightPart .fourtPartContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.41546vw;
+  }
+  .warehouseCardContainer .rightPart .fourtPartContainer .shareText {
+    font-family: Roboto-regular;
+    font-size: 2.657vw;
+    color: #747474;
+    margin-left: 2.89855vw;
+  }
+  .warehouseCardContainer .rightPart .fourtPartContainer .whatsappImage {
+    width: 4.34783vw;
+    height: 4.34783vw;
+    margin-left: 2.41546vw;
+    padding-right: 2.41546vw;
+    cursor: pointer;
+  }
+  .warehouseCardContainer .rightPart .fourtPartContainer .whatsappImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .warehouseCardContainer .rightPart .fourtPartContainer .mailImage {
+    width: 4.34783vw;
+    height: 4.34783vw;
+    margin-right: 45.89372vw;
+    cursor: pointer;
+  }
+  .warehouseCardContainer .rightPart .fourtPartContainer .mailImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .warehouseCardContainer .rightPart .fourtPartContainer .rightArrowContainer {
+    position: relative;
+    width: 4.34783vw;
+    height: 4.34783vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #ffa702;
+    opacity: 1;
+    border-radius: 50%;
+  }
+  .warehouseCardContainer .rightPart .fourtPartContainer .rightArrowContainer .rightButton {
+    position: absolute;
+    width: 2.17391vw;
+    height: 1.69082vw;
+  }
+  .warehouseCardContainer .rightPart .fourtPartContainer .rightArrowContainer .rightButton img {
+    width: 100%;
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=warehousecard.css.map */

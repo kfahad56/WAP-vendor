@@ -1,0 +1,45 @@
+$desk: 100 / 1920;
+$tablet: 100 / 768;
+$mob: 100 / 414;
+
+.backButtonContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    .backArrow {
+        font-size: 20 * $desk + vw;
+        color: #ffa702;
+    }
+    .backText {
+        margin-left: 14 * $desk + vw;
+        font-family: Roboto-regular;
+        font-size: 20 * $desk + vw;
+        color: #ffa702;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .backButtonContainer {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 59 * $mob + vw;
+        cursor: pointer;
+        .backArrow {
+            font-size: 20 * $mob + vw;
+            color: #ffa702;
+            opacity: 1;
+            margin-top:-77 * $mob + vw ;
+        }
+        .backText {
+            margin-left: 12 * $mob + vw;
+            font-family: Roboto-regular;
+            font-size: 16 * $mob + vw;
+            color: #ffa702;
+            margin-top:-77 * $mob + vw ;
+        }
+    } 
+}

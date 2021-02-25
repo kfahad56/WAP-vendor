@@ -1,0 +1,31 @@
+image: node:latest
+# This folder is cached between builds
+# http://docs.gitlab.com/ce/ci/yaml/README.html#cache
+#AWS access keys stored as secret variables
+
+#This declares the pipeline stages
+stages:
+  - build
+  #   - test
+  - deploy
+cache:
+  paths:
+    - node_modules/
+build:
+  stage: build
+  artifacts:
+    paths:
+      - build/
+  script:
+    - npm install
+    - CI=false npm run-script build
+
+deploy:
+  image: python:latest
+  stage: deploy
+  #   script:
+  #     - npm run-script deploy
+  script:
+    - pip install awscli
+    - aws s3 cp ./build/ s3://customer.hubshub.in/ --recursive --exclude ".*"
+  # when: manual

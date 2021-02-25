@@ -1,0 +1,94 @@
+$desk: 100 / 1920;
+$mob: 100 / 414;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  // overflow-x: hidden;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Roboto-regular;
+  src: url("../master/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto-bold;
+  src: url("../master/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: Roboto-medium;
+  src: url("../master/Roboto-Medium.ttf");
+}
+@font-face {
+  font-family: Roboto-light;
+  src: url("../master/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: Roboto-thin;
+  src: url("../master/Roboto-Thin.ttf");
+}
+@font-face {
+  font-family: montserrat-regular;
+  src: url("../master/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: montserrat-semibold;
+  src: url("../master/Montserrat-SemiBold.ttf");
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// .MuiInput-underline:hover:not(.Mui-disabled):before {
+//   border-bottom: 1px solid #64ecfc !important;
+// }
+
+// .MuiFormLabel-root.Mui-focused {
+//   color: #64ecfc !important;
+// }
+
+// .MuiInput-underline:after {
+//   border-bottom: 1px solid #64ecfc !important;
+// }
+
+// .MuiTextField-root,
+// .MuiFormControl-root {
+//   label {
+//     font-size: 26 * $desk + vw;
+//     font-family: Montserrat-light;
+//     padding-bottom: 8 * $desk + vw;
+//   }
+// }
+
+.ani-show {
+  animation: animate-in 1000ms;
+}
+@keyframes animate-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+// input:-webkit-autofill,
+// input:-webkit-autofill:hover,
+// input:-webkit-autofill:focus,
+// textarea:-webkit-autofill,
+// textarea:-webkit-autofill:hover,
+// textarea:-webkit-autofill:focus,
+// select:-webkit-autofill,
+// select:-webkit-autofill:hover,
+// select:-webkit-autofill:focus {
+//   // border-bottom: 1px solid #707070;
+//   -webkit-text-fill-color: black;
+//   -webkit-box-shadow: 0 0 0px 0px transparent inset;
+
+//   transition: background-color 5000s ease-in-out 0s;
+// }

@@ -1,0 +1,16 @@
+.testimonialCardContainer {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 480px) {
+  .testimonialCardContainer {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 91.78744vw;
+    justify-content: space-between;
+  }
+}
+/*# sourceMappingURL=testimonialcard.css.map */

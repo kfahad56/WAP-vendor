@@ -1,0 +1,120 @@
+$desk: 100 / 1920;
+$mob: 100 / 414;
+
+.blogCardContainer {
+    position: relative;
+    width: 492 * $desk + vw;
+    height: 564 * $desk + vw;
+    margin-right: 56 * $desk + vw;
+    margin-bottom: 71 * $desk + vw;
+    background: #f5f5f5;
+    .blogImage {
+        position: relative;
+        width: 492 * $desk + vw;
+        height: 282 * $desk + vw;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .buttonAdjust {
+        position: absolute;
+        display: flex;
+        left: 18 * $desk + vw;
+        bottom: 26 * $desk + vw;
+        .blogButtonContainer {
+            width: 128 * $desk + vw;
+            height: 28 * $desk + vw;
+            margin-right: 22 * $desk + vw;
+            border: 1 * $desk + vw solid rgba(0, 0, 0, 0.3);
+            .tagText {
+                font-size: 18 * $desk + vw;
+            }
+        }
+    }
+    h2 {
+        position: relative;
+        font-family: Roboto-regular;
+        font-size: 32 * $desk + vw;
+        left: 20 * $desk + vw;
+        top: 20 * $desk + vw;
+        margin-bottom: 24 * $desk + vw;
+    }
+    h4 {
+        position: relative;
+        font-family: Roboto-regular;
+        font-size: 28 * $desk + vw;
+        left: 20 * $desk + vw;
+        font-weight: lighter;
+    }
+    p {
+        width: 477 * $desk + vw;
+        font-family: Roboto-regular;
+        font-size: 18 * $desk + vw;
+        margin-top: 15 * $desk + vw;
+        margin-left: 16 * $desk + vw;
+        line-height: 27 * $desk + vw;
+        color: #707070;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .blogCardContainer {
+        position: relative;
+        width: 380 * $mob + vw;
+        height: 445 * $mob + vw;
+        margin-right: 17 * $mob + vw;
+        margin-left: 17 * $mob + vw;
+        margin-bottom: 33 * $mob + vw;
+        background: #f5f5f5;
+        .blogImage {
+            position: relative;
+            width: 380 * $mob + vw;
+            height: 206 * $mob + vw;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        .buttonAdjust {
+            position: absolute;
+            display: flex;
+            left: 13 * $mob + vw;
+            bottom: 26 * $mob + vw;
+            .blogButtonContainer {
+                width: 128 * $mob + vw;
+                height: 28 * $mob + vw;
+                margin-right: 22 * $mob + vw;
+                border: 1 * $mob + vw solid rgba(0, 0, 0, 0.3);
+                .tagText {
+                    font-size: 18 * $mob + vw;
+                }
+            }
+        }
+        h2 {
+            position: relative;
+            font-family: Roboto-regular;
+            font-size: 23 * $mob + vw;
+            left: 11 * $mob + vw;
+            top: 16 * $mob + vw;
+        }
+        h4 {
+            position: relative;
+            font-family: Roboto-regular;
+            font-size: 23 * $mob + vw;
+            left: 11 * $mob + vw;
+            top: 16 * $mob + vw;
+            font-weight: lighter;
+            margin-bottom: 30 * $mob + vw;
+        }
+        p {
+            width: 355 * $mob + vw;
+            font-family: Roboto-regular;
+            font-size: 15 * $mob + vw;
+            margin-left: 11 * $mob + vw;
+            margin-top: 22 * $mob + vw;
+            line-height: 20 * $mob + vw;
+            color: #707070;
+        }
+    }
+}

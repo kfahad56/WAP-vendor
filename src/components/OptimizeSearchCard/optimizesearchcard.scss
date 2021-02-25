@@ -1,0 +1,336 @@
+$desk: 100 / 1920;
+$tablet: 100 / 768;
+$mob: 100 / 414;
+.optimizeSearchCardContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 581 * $desk + vw;
+    height: 589 * $desk + vw;
+    margin-left: 144 * $desk + vw;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 2 * $desk + vw 1 * $desk + vw 4 * $desk + vw rgba(0, 0, 0, 0.19);
+    border-radius: 12 * $desk + vw;
+    z-index: 1;
+    h3 {
+        margin-top: 24 * $desk + vw;
+        margin-bottom: 8 * $desk + vw;
+        font-family: Roboto-regular;
+        font-size: 37 * $desk + vw;
+    }
+    p {
+        font-family: Roboto-regular;
+        font-size: 16 * $desk + vw;
+        width: 441 * $desk + vw;
+        margin-bottom: 33 * $desk + vw;
+        margin-left: 72 * $desk + vw;
+        color: #707070;
+        line-height: 20 * $desk + vw;
+    }
+    .formContainer {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        .stateSuggestionContainer {
+            position: relative;
+            .stateInputBox {
+                .adjustDropdownInput {
+                    .MuiInputBase-input {
+                        height: 20 * $desk + vw;
+                    }
+                }
+            }
+            .suggestions {
+                position: absolute;
+                width: 18.22917vw;
+                min-height: 63 * $desk + vw;
+                max-height: 12.1vw;
+                background: white;
+                z-index: 50;
+                box-shadow: 0 1 * $desk + vw 4 * $desk + vw rgba(0, 0, 0, 0.19);
+                // border: 1px solid #51a8b1;
+                top: 68%;
+                left: 0;
+                right: 0;
+                overflow: auto;
+                .suggestionData {
+                    display: flex;
+                    cursor: pointer;
+                    flex-direction: column;
+                    border-bottom: 1px solid #51a8b1;
+                    padding: 16 * $desk + vw 7 * $desk + vw 7 * $desk + vw 12 * $desk + vw;
+                    .otherData {
+                        display: flex;
+                        p {
+                            margin-right: 0.5vw;
+                        }
+                    }
+                }
+            }
+        }
+
+        .MuiOutlinedInput-input {
+            font-family: Roboto-regular;
+            font-size: 16 * $desk + vw;
+            color: #000000;
+        }
+        .MuiInputBase-fullWidth {
+            width: 350 * $desk + vw;
+        }
+        .MuiOutlinedInput-root {
+            // border-radius: 0;
+            margin-bottom: 37 * $desk + vw;
+            width: 350 * $desk + vw;
+        }
+        .MuiFormLabel-root {
+            color: #000000;
+            font-size: 22 * $desk + vw;
+        }
+        .MuiOutlinedInput-notchedOutline {
+            border-color: #978888;
+        }
+        .submitButton {
+            width: 350 * $desk + vw;
+            height: 59 * $desk + vw;
+            background: #0055ff;
+            border-radius: 3 * $desk + vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            .btnText {
+                font-size: 20 * $desk + vw;
+                font-family: Roboto-regular;
+                color: #ffffff;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 480px) {
+    .optimizeSearchCardContainer {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 250 * $mob + vw;
+        margin-left: 0;
+        top: 222 * $mob + vw;
+        background: #ffffff 0% 0% no-repeat padding-box;
+        box-shadow: none;
+        border-radius: 0;
+        z-index: 1;
+        h3 {
+            margin-top: 0;
+            margin-left: -53 * $mob + vw;
+            margin-bottom: 8 * $mob + vw;
+            font-family: Roboto-regular;
+            font-size: 33 * $mob + vw;
+        }
+        p {
+            margin-left: -38 * $mob + vw;
+            font-family: Roboto-regular;
+            font-size: 13 * $mob + vw;
+            width: 345 * $mob + vw;
+            margin-bottom: 33 * $mob + vw;
+            line-height: 22 * $mob + vw;
+        }
+        .formContainer {
+            display: none;
+        }
+        .formContainerTabletMobile {
+            display: block;
+            position: relative;
+            display: flex;
+            align-items: center;
+            height: 30 * $mob + vw;
+            left: -15 * $mob + vw;
+            top: 22 * $mob + vw;
+            
+            .mobileFormAdjust {
+                display: flex;
+                align-items: center;
+                .adjustDropdownInput {
+                    .MuiInputBase-input {
+                        width: 300 * $mob + vw;
+                        height: 20 * $mob + vw;
+                    }
+                }
+                .MuiOutlinedInput-input {
+                    font-family: Roboto-regular;
+                    font-size: 13 * $mob + vw;
+                    color: #000000;
+                }
+                .MuiInputBase-fullWidth {
+                    width: 300 * $mob + vw;
+                }
+                .MuiOutlinedInput-root {
+                    border-radius: 0;
+                    margin-bottom: 37 * $mob + vw;
+                    width: 300 * $mob + vw;
+                }
+                .MuiFormLabel-root {
+                    color: #000000;
+                    font-size: 18 * $mob + vw;
+                }
+                .MuiOutlinedInput-notchedOutline {
+                    border-color: #978888;
+                }
+                .submitButton {
+                    margin-top: -30 * $mob + vw;
+                    margin-left: 20 * $mob + vw;
+                    width: 35 * $mob + vw;
+                    height: 35 * $mob + vw;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+
+            // .PrivateNotchedOutline-legendLabelled-3 {
+            //     font-size: 1em;
+            // }
+            // .MuiInput-multiline	 {
+            //     color: #0055ff;
+            // }
+        }
+        .tabContainer {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            top: 186 * $mob + vw;
+            left: 19 * $mob + vw;
+            top: 220 * $mob + vw;
+            .tabText {
+                font-family: Roboto-regular;
+                font-size: 13 * $mob + vw;
+                cursor: pointer;
+            }
+            .activeTab {
+                font-family: Roboto-medium;
+                font-size: 13 * $mob + vw;
+                color: #0055ff;
+            }
+            .divideBorder {
+                width: 0;
+                height: 20 * $mob + vw;
+                border-left: 1.5 * $mob + vw solid #000000;
+                margin-left: 15 * $mob + vw;
+                margin-right: 15 * $mob + vw;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .optimizeSearchCardContainer {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 491 * $tablet + vw;
+        height: 250 * $tablet + vw;
+        margin-left: 139 * $tablet + vw;
+        top: 222 * $tablet + vw;
+        background: #ffffff 0% 0% no-repeat padding-box;
+        box-shadow: 2 * $tablet + vw 1 * $tablet + vw 4 * $tablet + vw rgba(0, 0, 0, 0.19);
+        border-radius: 12 * $tablet + vw;
+        z-index: 1;
+        h3 {
+            margin-top: 19 * $tablet + vw;
+            margin-bottom: 6 * $tablet + vw;
+            font-family: Roboto-regular;
+            font-size: 37 * $tablet + vw;
+        }
+        p {
+            font-family: Roboto-regular;
+            font-size: 13 * $tablet + vw;
+            width: 365 * $tablet + vw;
+            margin-bottom: 33 * $tablet + vw;
+            line-height: 17 * $tablet + vw;
+        }
+        .formContainer {
+            display: none;
+        }
+        .formContainerTabletMobile {
+            display: block;
+            position: relative;
+            display: flex;
+            align-items: center;
+
+            height: 50 * $tablet + vw;
+            .adjustDropdownInput {
+                .MuiInputBase-input {
+                    height: 20 * $tablet + vw;
+                }
+            }
+            .MuiOutlinedInput-input {
+                font-family: Roboto-regular;
+                font-size: 13 * $tablet + vw;
+            }
+            .MuiInputBase-fullWidth {
+                width: 300 * $tablet + vw;
+            }
+            .MuiOutlinedInput-root {
+                border-radius: 0;
+                width: 300 * $tablet + vw;
+            }
+            .MuiFormLabel-root {
+                color: #000000;
+                font-size: 16 * $tablet + vw;
+            }
+            .MuiOutlinedInput-notchedOutline {
+                border-color: #000000;
+            }
+            // .PrivateNotchedOutline-legendLabelled-3 {
+            //     font-size: 1em;
+            // }
+            // .MuiInput-multiline	 {
+            //     color: #0055ff;
+            // }
+            .submitButton {
+                margin-top: 7 * $tablet + vw;
+                margin-left: 29 * $tablet + vw;
+                width: 35 * $tablet + vw;
+                height: 35 * $tablet + vw;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .tabContainer {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            top: 206 * $tablet + vw;
+            left: 67 * $tablet + vw;
+            .tabText {
+                font-family: Roboto-regular;
+                font-size: 13 * $tablet + vw;
+                cursor: pointer;
+            }
+            .activeTab {
+                font-family: Roboto-medium;
+                font-size: 13 * $tablet + vw;
+                color: #0055ff;
+            }
+            .divideBorder {
+                width: 0;
+                height: 20 * $tablet + vw;
+                border-left: 1.5 * $tablet + vw solid #000000;
+                margin-left: 15 * $tablet + vw;
+                margin-right: 15 * $tablet + vw;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1025px) {
+    .formContainerTabletMobile {
+        display: none;
+    }
+    .tabContainer {
+        display: none;
+    }
+}

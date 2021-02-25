@@ -1,0 +1,10 @@
+.amenitiesPopupCardContainer {
+  position: relative;
+}
+
+.amenitiesPopupCardContainer .slideSection {
+  display: flex;
+  flex-wrap: wrap;
+  width: 54.21875vw;
+}
+/*# sourceMappingURL=amenitiespopupcard.css.map */

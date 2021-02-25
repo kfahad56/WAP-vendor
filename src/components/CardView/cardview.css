@@ -1,0 +1,197 @@
+.cardViewContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 16.82292vw;
+  height: 17.23958vw;
+  margin-bottom: 1.04167vw;
+  margin-right: 3.69792vw;
+  margin-left: 0.52083vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0vw 0.15625vw 0.3125vw rgba(0, 0, 0, 0.29);
+}
+
+.cardViewContainer .cardImage {
+  width: 16.82292vw;
+  height: 12.55208vw;
+}
+
+.cardViewContainer .cardImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.cardViewContainer .cardBottomContainer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15.625vw;
+  margin: auto;
+}
+
+.cardViewContainer .cardBottomContainer .cardText div {
+  font-family: Roboto-regular;
+  font-size: 0.98958vw;
+  margin-bottom: 0.41667vw;
+}
+
+.cardViewContainer .cardBottomContainer .rightArrowContainer {
+  position: relative;
+  width: 1.45833vw;
+  height: 1.45833vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: #ffa702;
+  opacity: 1;
+  border-radius: 50%;
+}
+
+.cardViewContainer .cardBottomContainer .rightArrowContainer .rightButton {
+  position: absolute;
+  width: 0.72917vw;
+  height: 0.57292vw;
+}
+
+.cardViewContainer .cardBottomContainer .rightArrowContainer .rightButton img {
+  width: 100%;
+  height: 100%;
+}
+
+.cardViewContainer .cardBottomContainer .eyeContainer {
+  position: relative;
+  width: 1.45833vw;
+  height: 1.45833vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cardViewContainer .cardBottomContainer .eyeContainer .eyeButton {
+  position: absolute;
+  width: 1.04167vw;
+  height: 0.52083vw;
+}
+
+.cardViewContainer .cardBottomContainer .eyeContainer .eyeButton img {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  .cardViewContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 55.07246vw;
+    height: 56.52174vw;
+    margin-bottom: 4.83092vw;
+    margin-right: 0.72464vw;
+    margin-left: -7.97101vw;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0vw 0.72464vw 1.44928vw rgba(0, 0, 0, 0.29);
+  }
+  .cardViewContainer .cardImage {
+    width: 55.07246vw;
+    height: 41.30435vw;
+  }
+  .cardViewContainer .cardImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .cardViewContainer .cardBottomContainer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 48.30918vw;
+    margin: auto;
+  }
+  .cardViewContainer .cardBottomContainer .cardText div {
+    font-family: Roboto-regular;
+    font-size: 3.38164vw;
+    margin-bottom: 1.44928vw;
+  }
+  .cardViewContainer .cardBottomContainer .rightArrowContainer {
+    position: relative;
+    width: 4.83092vw;
+    height: 4.83092vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #ffa702;
+    opacity: 1;
+    border-radius: 50%;
+  }
+  .cardViewContainer .cardBottomContainer .rightArrowContainer .rightButton {
+    position: absolute;
+    width: 2.41546vw;
+    height: 1.93237vw;
+  }
+  .cardViewContainer .cardBottomContainer .rightArrowContainer .rightButton img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .cardViewContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 29.6875vw;
+    height: 30.46875vw;
+    margin-bottom: 1.30208vw;
+    margin-right: 2.14844vw;
+    margin-left: 0.65104vw;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0vw 0.39062vw 0.78125vw rgba(0, 0, 0, 0.29);
+  }
+  .cardViewContainer .cardImage {
+    width: 29.6875vw;
+    height: 22.26562vw;
+  }
+  .cardViewContainer .cardImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .cardViewContainer .cardBottomContainer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 26.04167vw;
+    margin: auto;
+  }
+  .cardViewContainer .cardBottomContainer .cardText div {
+    font-family: Roboto-regular;
+    font-size: 1.82292vw;
+    margin-bottom: 0.78125vw;
+  }
+  .cardViewContainer .cardBottomContainer .rightArrowContainer {
+    position: relative;
+    width: 2.60417vw;
+    height: 2.60417vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #ffa702;
+    opacity: 1;
+    border-radius: 50%;
+  }
+  .cardViewContainer .cardBottomContainer .rightArrowContainer .rightButton {
+    position: absolute;
+    width: 1.30208vw;
+    height: 1.04167vw;
+  }
+  .cardViewContainer .cardBottomContainer .rightArrowContainer .rightButton img {
+    width: 100%;
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=cardview.css.map */

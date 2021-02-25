@@ -1,0 +1,60 @@
+$mob: 100 / 414;
+$desk: 100 /1920;
+.amenitiesCard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 215 * $desk + vw;
+    height: 184 * $desk + vw;
+    background: #f2f2f2;
+    border-radius: 3 * $desk + vw;
+    margin-right: 27 * $desk + vw;
+    margin-bottom: 27 * $desk + vw;
+    .amenitiesImage {
+        width: 41 * $desk + vw;
+        height: 41 * $desk + vw;
+        margin-bottom: 28 * $desk + vw;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    .amenitiesTtext {
+        font-family: Roboto-regular;
+        font-size: 16 * $desk + vw;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .amenitiesCard {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 161 * $mob + vw;
+        height: 151 * $mob + vw;
+        background: #f2f2f2;
+        border-radius: 3 * $mob + vw;
+        margin-right: 27 * $mob + vw;
+        margin-bottom: 27 * $mob + vw;
+        // opacity: 0.55;
+        .amenitiesImage {
+            width: 51 * $mob + vw;
+            height: 41 * $mob + vw;
+            margin-bottom: 17 * $mob + vw;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        .amenitiesTtext {
+            font-family: Roboto-regular;
+            font-size: 16 * $mob + vw;
+            text-align: center;
+        }
+    }
+}

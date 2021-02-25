@@ -1,0 +1,51 @@
+$desk: 100 / 1920;
+$mob: 100 / 414;
+
+.ImageTextTileContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 33 * $desk + vw;
+    width: 400 * $desk + vw;
+    .imageArea {
+        width: 39 * $desk + vw;
+        height: 41 * $desk + vw;
+        margin-right: 31 * $desk + vw;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    .textArea {
+        font-family: Roboto-regular;
+        font-size: 20 * $desk + vw;
+        margin-right: 124 * $desk + vw;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .ImageTextTileContainer {
+        position: relative;
+        display: flex;
+        align-items: center;
+        // width: max-content;
+        width: 355 * $mob + vw;
+        height: 77 * $mob + vw;
+        // margin-top: 33 * $mob + vw;
+        .imageArea {
+            width: 50 * $mob + vw;
+            height: 50 * $mob + vw;
+            margin-right: 22 * $mob + vw;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        .textArea {
+            font-family: Roboto-regular;
+            font-size: 15 * $mob + vw;
+            margin-right: 124 * $mob + vw;
+        }
+    }
+}

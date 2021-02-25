@@ -1,0 +1,52 @@
+@media only screen and (max-width: 480px) {
+  .MobSliderContainer {
+    position: relative;
+    width: 243.96135vw;
+    left: 2.17391vw;
+    overflow: hidden;
+  }
+  .MobSliderContainer .adjustSlider {
+    width: 277.77778vw;
+  }
+  .MobSliderContainer .slick-slider {
+    position: relative;
+    margin-left: 2.29469vw;
+    margin-right: 2.29469vw;
+  }
+  .MobSliderContainer *:focus {
+    outline: 0;
+    outline: none;
+  }
+  .MobSliderContainer .imageContainer {
+    width: 85.74879vw !important;
+    height: 45.65217vw;
+  }
+  .MobSliderContainer .imageContainer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.93237vw;
+  }
+  .MobSliderContainer .rightArrowContainer {
+    position: absolute;
+    width: 26.3285vw;
+    height: 25.36232vw;
+    top: 65.45894vw;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 50%;
+  }
+  .MobSliderContainer .rightArrowContainer .rightButton {
+    position: absolute;
+    width: 9.17874vw;
+    height: 7.00483vw;
+  }
+  .MobSliderContainer .rightArrowContainer .rightButton img {
+    width: 100%;
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=mobwarehouseslider.css.map */

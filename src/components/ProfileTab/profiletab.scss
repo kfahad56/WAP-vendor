@@ -1,0 +1,47 @@
+$desk: 100 / 1920;
+.profileTabContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 456 * $desk + vw;
+    height: 69 * $desk + vw;
+    background: rgba(170, 170, 170, 0.24);
+    margin-bottom: 25 * $desk + vw;
+    .profileImage {
+        width: 28 * $desk + vw;
+        height: 28 * $desk + vw;
+        margin-left: 23 * $desk + vw;
+        margin-right: 31 * $desk + vw;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    .profileText {
+        font-family: Roboto-regular;
+        font-size: 19 * $desk + vw;
+    }
+    .profileDownContainer {
+        position: absolute;
+        width: 28 * $desk + vw;
+        height: 28 * $desk + vw;
+        right: 19 * $desk + vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background: #0055ff;
+        opacity: 1;
+        border-radius: 50%;
+        .profileDownButton {
+            position: absolute;
+            width: 11 * $desk + vw;
+            height: 14 * $desk + vw;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

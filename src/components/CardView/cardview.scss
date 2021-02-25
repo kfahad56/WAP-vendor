@@ -1,0 +1,192 @@
+$desk: 100 / 1920;
+$tablet: 100 / 768;
+$mob: 100 / 414;
+.cardViewContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 323 * $desk + vw;
+    height: 331 * $desk + vw;
+    margin-bottom: 20 * $desk + vw;
+    margin-right: 71 * $desk + vw;
+    margin-left: 10 * $desk + vw;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0 * $desk + vw 3 * $desk + vw 6 * $desk + vw rgba(0, 0, 0, 0.29);
+    .cardImage {
+        width: 323 * $desk + vw;
+        height: 241 * $desk + vw;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .cardBottomContainer {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 300 * $desk + vw;
+        margin: auto;
+        .cardText div {
+            font-family: Roboto-regular;
+            font-size: 19 * $desk + vw;
+            margin-bottom: 8 * $desk + vw;
+        }
+        .rightArrowContainer {
+            position: relative;
+            width: 28 * $desk + vw;
+            height: 28 * $desk + vw;
+            // right: -54.5 * $desk + vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            background: #ffa702;
+            opacity: 1;
+            border-radius: 50%;
+            .rightButton {
+                position: absolute;
+                width: 14 * $desk + vw;
+                height: 11 * $desk + vw;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .eyeContainer {
+            position: relative;
+            width: 28 * $desk + vw;
+            height: 28 * $desk + vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            .eyeButton {
+                position: absolute;
+                width: 20 * $desk + vw;
+                height: 10 * $desk + vw;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 480px) {
+    .cardViewContainer {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 228 * $mob + vw;
+        height: 234 * $mob + vw;
+        margin-bottom: 20 * $mob + vw;
+        margin-right: 3 * $mob + vw;
+        margin-left: -33 * $mob + vw;
+        background: #ffffff 0% 0% no-repeat padding-box;
+        box-shadow: 0 * $mob + vw 3 * $mob + vw 6 * $mob + vw rgba(0, 0, 0, 0.29);
+        .cardImage {
+            width: 228 * $mob + vw;
+            height: 171 * $mob + vw;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .cardBottomContainer {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 200 * $mob + vw;
+            margin: auto;
+            .cardText div {
+                font-family: Roboto-regular;
+                font-size: 14 * $mob + vw;
+                margin-bottom: 6 * $mob + vw;
+            }
+            .rightArrowContainer {
+                position: relative;
+                width: 20 * $mob + vw;
+                height: 20 * $mob + vw;
+                // right: -54.5 * $mob + vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                background: #ffa702;
+                opacity: 1;
+                border-radius: 50%;
+                .rightButton {
+                    position: absolute;
+                    width: 10 * $mob + vw;
+                    height: 8 * $mob + vw;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .cardViewContainer {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 228 * $tablet + vw;
+        height: 234 * $tablet + vw;
+        margin-bottom: 10 * $tablet + vw;
+        margin-right: 16.5 * $tablet + vw;
+        margin-left: 5 * $tablet + vw;
+        background: #ffffff 0% 0% no-repeat padding-box;
+        box-shadow: 0 * $tablet + vw 3 * $tablet + vw 6 * $tablet + vw rgba(0, 0, 0, 0.29);
+        .cardImage {
+            width: 228 * $tablet + vw;
+            height: 171 * $tablet + vw;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .cardBottomContainer {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 200 * $tablet + vw;
+            margin: auto;
+            .cardText div {
+                font-family: Roboto-regular;
+                font-size: 14 * $tablet + vw;
+                margin-bottom: 6 * $tablet + vw;
+            }
+            .rightArrowContainer {
+                position: relative;
+                width: 20 * $tablet + vw;
+                height: 20 * $tablet + vw;
+                // right: -54.5 * $tablet + vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                background: #ffa702;
+                opacity: 1;
+                border-radius: 50%;
+                .rightButton {
+                    position: absolute;
+                    width: 10 * $tablet + vw;
+                    height: 8 * $tablet + vw;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1025px) {
+}

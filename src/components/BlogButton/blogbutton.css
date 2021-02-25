@@ -1,0 +1,35 @@
+.blogButtonContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 10.3125vw;
+  height: 2.5vw;
+  border-radius: 0.3125vw;
+  border: 0.05208vw solid #000000;
+  cursor: pointer;
+}
+
+.blogButtonContainer .tagText {
+  font-family: Roboto-regular;
+  font-size: 1.14583vw;
+  margin-left: 1.04167vw;
+}
+
+@media only screen and (max-width: 480px) {
+  .blogButtonContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 37.43961vw;
+    height: 8.9372vw;
+    border-radius: 1.44928vw;
+    border: 0.24155vw solid #000000;
+    cursor: pointer;
+  }
+  .blogButtonContainer .tagText {
+    font-family: Roboto-regular;
+    font-size: 4.10628vw;
+    margin-left: 3.86473vw;
+  }
+}
+/*# sourceMappingURL=blogbutton.css.map */

@@ -1,0 +1,64 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Roboto-regular;
+  src: url("../master/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: Roboto-bold;
+  src: url("../master/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: Roboto-medium;
+  src: url("../master/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: Roboto-light;
+  src: url("../master/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: Roboto-thin;
+  src: url("../master/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: montserrat-regular;
+  src: url("../master/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: montserrat-semibold;
+  src: url("../master/Montserrat-SemiBold.ttf");
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.ani-show {
+  animation: animate-in 1000ms;
+}
+
+@keyframes animate-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=master.css.map */

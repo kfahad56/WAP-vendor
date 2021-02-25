@@ -1,0 +1,331 @@
+.SearchBarContainer {
+  position: -webkit-sticky;
+  position: sticky;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 7.29167vw;
+  width: 100%;
+  height: 3.02083vw;
+  border-top: 0.04167vw solid #c7c7c7;
+  border-bottom: 0.04167vw solid #c7c7c7;
+  background-color: #ffffff;
+  z-index: 10;
+}
+
+.SearchBarContainer .leftSection {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 37.5vw;
+  border-right: 0.04167vw solid #c7c7c7;
+  height: 3.02083vw;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 9.6875vw;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .searchImage {
+  width: 1.51042vw;
+  height: 1.51042vw;
+  margin-right: 1.40625vw;
+  z-index: 2;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .searchImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .inputBox {
+  position: relative;
+  z-index: 10 !important;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .inputBox input {
+  outline: 0;
+  border: 0;
+  background: transparent;
+  font-family: Roboto-regular;
+  font-size: 0.88542vw;
+  z-index: 2;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .inputBox ::-webkit-input-placeholder {
+  color: #000000;
+  z-index: 2;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .inputBox :-ms-input-placeholder {
+  color: #000000;
+  z-index: 2;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .inputBox ::-ms-input-placeholder {
+  color: #000000;
+  z-index: 2;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .inputBox ::placeholder {
+  color: #000000;
+  z-index: 2;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .suggestions {
+  position: absolute;
+  width: 26.04167vw;
+  min-height: 13.69792vw;
+  max-height: 12.1vw;
+  background: white;
+  z-index: 1;
+  -webkit-box-shadow: 0 0.05208vw 0.20833vw rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0.05208vw 0.20833vw rgba(0, 0, 0, 0.3);
+  top: -0.78125vw;
+  left: 8.33333vw;
+  right: 0;
+  overflow: auto;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .suggestions .closeButtonContainer {
+  position: absolute;
+  top: 1.71875vw;
+  right: 0.78125vw;
+  width: 1.30208vw;
+  height: 1.30208vw;
+  cursor: pointer;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .suggestions .closeButtonContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .suggestions .suggestionData {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0.83333vw 0.36458vw 0.36458vw 0.625vw;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .suggestions .suggestionData .otherData {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .suggestions .suggestionData .otherData p {
+  margin-top: 3.64583vw;
+  padding-left: 0.52083vw;
+}
+
+.SearchBarContainer .rightSection {
+  position: relative;
+  width: 62.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.SearchBarContainer .rightSection .roundButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 6.61458vw;
+  height: 1.92708vw;
+  border-radius: 1.71875vw;
+  background: #0055ff;
+  margin-left: 2.8125vw;
+  cursor: pointer;
+}
+
+.SearchBarContainer .rightSection .roundButton div {
+  font-family: Roboto-regular;
+  font-size: 0.88542vw;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 480px) {
+  .SearchBarContainer {
+    position: fixed;
+    display: inline-block;
+    top: 24.15459vw;
+    width: 100%;
+    height: 15.70048vw;
+    border-top: 0.19324vw solid #c7c7c7;
+    border-bottom: 0.19324vw solid #c7c7c7;
+    background-color: #ffffff;
+    z-index: 10;
+  }
+  .SearchBarContainer .leftSection {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    width: 101.69082vw;
+    border-right: 0.19324vw solid #c7c7c7;
+    height: 13.28502vw;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 86.71498vw;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 7.24638vw;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer .searchImage {
+    width: 6.03865vw;
+    height: 6.03865vw;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer .searchImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer input {
+    outline: 0;
+    border: 0;
+    background: transparent;
+    font-family: Roboto-regular;
+    font-size: 2.89855vw !important;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer ::-webkit-input-placeholder {
+    color: #000000;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer :-ms-input-placeholder {
+    color: #000000;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer ::-ms-input-placeholder {
+    color: #000000;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer ::placeholder {
+    color: #000000;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer .mobMap {
+    width: 4.83092vw;
+    height: 4.83092vw;
+    margin-left: 36.95652vw;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer .mobMap img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchBarContainer .leftSection .closeButtonContainerMap {
+    position: absolute;
+    top: 7.97101vw;
+    right: 10.38647vw;
+    width: 4.83092vw;
+    height: 4.83092vw;
+    cursor: pointer;
+    z-index: 111;
+  }
+  .SearchBarContainer .leftSection .closeButtonContainerMap img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchBarContainer .rightSection {
+    position: relative;
+    width: 101.69082vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 13.28502vw;
+    border-right: 0.19324vw solid #c7c7c7;
+    border-top: 0.19324vw solid #c7c7c7;
+    border-bottom: 0.19324vw solid #c7c7c7;
+    background-color: #ffffff;
+  }
+  .SearchBarContainer .rightSection .roundButton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 20.04831vw;
+    height: 5.7971vw;
+    border-radius: 7.97101vw;
+    background: #0055ff;
+    margin-left: 7.24638vw;
+    margin-top: 2.41546vw;
+    margin-bottom: 1.69082vw;
+  }
+  .SearchBarContainer .rightSection .roundButton div {
+    font-family: Roboto-regular;
+    font-size: 2.657vw;
+    color: #ffffff;
+  }
+  .SearchBarContainer .rightSection .mobFilter {
+    margin-left: 34.29952vw;
+    margin-top: 1.20773vw;
+    width: 5.55556vw;
+    height: 6.03865vw;
+  }
+  .SearchBarContainer .rightSection .mobFilter img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .mobMap {
+    display: none;
+  }
+  .closeButtonContainerMap {
+    display: none;
+  }
+  .mobFilter {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .mobMap {
+    display: none;
+  }
+  .closeButtonContainerMap {
+    display: none;
+  }
+  .mobFilter {
+    display: none;
+  }
+}
+/*# sourceMappingURL=searchbar.css.map */

@@ -1,0 +1,44 @@
+.backButtonContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.backButtonContainer .backArrow {
+  font-size: 1.04167vw;
+  color: #ffa702;
+}
+
+.backButtonContainer .backText {
+  margin-left: 0.72917vw;
+  font-family: Roboto-regular;
+  font-size: 1.04167vw;
+  color: #ffa702;
+}
+
+@media only screen and (max-width: 480px) {
+  .backButtonContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14.25121vw;
+    cursor: pointer;
+  }
+  .backButtonContainer .backArrow {
+    font-size: 4.83092vw;
+    color: #ffa702;
+    opacity: 1;
+    margin-top: -18.59903vw;
+  }
+  .backButtonContainer .backText {
+    margin-left: 2.89855vw;
+    font-family: Roboto-regular;
+    font-size: 3.86473vw;
+    color: #ffa702;
+    margin-top: -18.59903vw;
+  }
+}
+/*# sourceMappingURL=backbutton.css.map */

@@ -1,0 +1,54 @@
+.vacanciesButtonContainer {
+  position: relative;
+  width: 23.33333vw;
+  height: 5.57292vw;
+  background: #ffffff;
+  border: 0.05208vw solid #0055ff;
+  border-radius: 0.20833vw;
+  margin-right: 3.02083vw;
+  margin-bottom: 3.59375vw;
+}
+
+.vacanciesButtonContainer .vacanciesHeadText {
+  font-family: Roboto-medium;
+  font-size: 1.30208vw;
+  margin-top: 1.14583vw;
+  margin-left: 1.66667vw;
+}
+
+.vacanciesButtonContainer .viewMoredetails {
+  font-family: Roboto-regular;
+  font-size: 0.72917vw;
+  margin-top: 1.04167vw;
+  margin-left: 1.66667vw;
+  color: #0055ff;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) {
+  .vacanciesButtonContainer {
+    position: relative;
+    width: 90.33816vw;
+    height: 15.94203vw;
+    background: #ffffff;
+    border: 0.24155vw solid #0055ff;
+    border-radius: 0.96618vw;
+    margin-right: 14.00966vw;
+    margin-bottom: 5.07246vw;
+  }
+  .vacanciesButtonContainer .vacanciesHeadText {
+    font-family: Roboto-medium;
+    font-size: 4.34783vw;
+    margin-top: 2.41546vw;
+    margin-left: 1.69082vw;
+  }
+  .vacanciesButtonContainer .viewMoredetails {
+    font-family: Roboto-regular;
+    font-size: 3.38164vw;
+    margin-top: 2.41546vw;
+    margin-left: 1.69082vw;
+    color: #0055ff;
+    cursor: pointer;
+  }
+}
+/*# sourceMappingURL=vacanciesbutton.css.map */

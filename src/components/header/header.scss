@@ -1,0 +1,349 @@
+$desk: 100 / 1920;
+$tablet: 100 / 768;
+$mob: 100 / 414;
+.HeaderContainer {
+    position: relative;
+    width: 100%;
+    height: 140 * $desk + vw;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    .logoContainer {
+        position: absolute;
+        left: 146 * $desk + vw;
+        width: 276 * $desk + vw;
+        height: 91 * $desk + vw;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .navbarContainer {
+        position: relative;
+        margin-left: 463.5 * $desk + vw;
+        ul,
+        li {
+            display: flex;
+            font-size: 19 * $desk + vw;
+            color: #002366;
+            margin-left: 25.5 * $desk + vw;
+            margin-right: 25.5 * $desk + vw;
+            font-family: Roboto-regular;
+            cursor: pointer;
+        }
+    }
+    .signInContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 556.5 * $desk + vw;
+        cursor: pointer;
+        .userImage {
+            width: 16 * $desk + vw;
+            height: 16 * $desk + vw;
+            margin-right: 11 * $desk + vw;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .signInText {
+            font-size: 19 * $desk + vw;
+            color: #002366;
+            font-family: Roboto-regular;
+            font-weight: 600;
+        }
+    }
+    .profileButtonContainer {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        .afterSignInContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 495 * $desk + vw;
+            padding-left: 20 * $desk + vw;
+            padding-right: 20 * $desk + vw;
+            width: auto;
+            height: 45 * $desk + vw;
+            background: #0055ff;
+            border-radius: 7 * $desk + vw;
+            cursor: pointer;
+            .userImage {
+                width: 16 * $desk + vw;
+                height: 16 * $desk + vw;
+                margin-right: 11 * $desk + vw;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .signInText {
+                font-size: 19 * $desk + vw;
+                color: #ffffff;
+                font-family: Roboto-regular;
+            }
+        }
+        .dropDownContainer {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            margin-left: 495 * $desk + vw;
+            width: auto;
+            height: auto;
+            top: 46 * $desk + vw;
+            padding-left: 20 * $desk + vw;
+            padding-right: 20 * $desk + vw;
+            z-index: 1;
+            .menu-enter {
+                max-height: 0px;
+                transition: max-height 1s ease;
+                -webkit-transition: max-height 1s ease;
+                overflow: hidden;
+            }
+
+            .menu-enter.menu-enter-active {
+                height: auto;
+                max-height: 200 * $desk + vw;
+            }
+
+            .menu-leave {
+                max-height: 200 * $desk + vw;
+                transition: max-height 1s ease;
+                -webkit-transition: max-height 1s ease;
+            }
+
+            .menu-leave.menu-leave-active {
+                overflow: hidden;
+                max-height: 0px;
+            }
+            .dropDownTextContainer {
+                display: flex;
+                flex-direction: column;
+                padding-left: 20 * $desk + vw;
+                padding-right: 20 * $desk + vw;
+                width: auto;
+                height: 80 * $desk + vw;
+                background: #0055ff;
+                div {
+                    cursor: pointer;
+                    font-size: 19 * $desk + vw;
+                    color: #ffffff;
+                    font-family: Roboto-regular;
+                    white-space: nowrap;
+                    margin-top: 10 * $desk + vw;
+                }
+            }
+        }
+    }
+}
+.sticky {
+    position: sticky;
+    top: 0 * $desk + vw;
+    width: 100%;
+    z-index: 200;
+    // box-shadow: 0 1px 4px rgba($color: #000000, $alpha: 1.0);
+}
+@media only screen and (max-width: 480px) {
+    .HeaderContainer {
+        position: relative;
+        width: 100%;
+        height: 100 * $mob + vw;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        .logoContainer {
+            position: absolute;
+            left: 19 * $mob + vw;
+            width: 115 * $mob + vw;
+            height: 41 * $mob + vw;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .adjustBars {
+            position: absolute;
+            right: 30 * $mob + vw;
+            display: block;
+            color: #002366;
+            font-size: 20 * $mob + vw;
+        }
+        .navbarContainer {
+            display: none;
+            position: relative;
+            margin-left: 463.5 * $mob + vw;
+            ul,
+            li {
+                display: flex;
+                font-size: 19 * $mob + vw;
+                color: #002366;
+                margin-left: 25.5 * $mob + vw;
+                margin-right: 25.5 * $mob + vw;
+                font-family: Roboto-regular;
+                cursor: pointer;
+            }
+        }
+        .signInContainer {
+            display: none;
+            position: absolute;
+            // display: flex;
+            justify-content: center;
+            align-items: center;
+            right: 140 * $mob + vw;
+            cursor: pointer;
+            .userImage {
+                width: 16 * $mob + vw;
+                height: 16 * $mob + vw;
+                margin-right: 11 * $mob + vw;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .signInText {
+                font-size: 19 * $mob + vw;
+                color: #002366;
+                font-family: Roboto-regular;
+                font-weight: 600;
+            }
+        }
+        .afterSignInContainer {
+            display: none;
+            // display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 495 * $mob + vw;
+            padding-left: 20 * $mob + vw;
+            padding-right: 20 * $mob + vw;
+            width: auto;
+            height: 45 * $mob + vw;
+            background: #0055ff;
+            border-radius: 7px;
+            cursor: pointer;
+            .userImage {
+                width: 16 * $mob + vw;
+                height: 16 * $mob + vw;
+                margin-right: 11 * $mob + vw;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .signInText {
+                font-size: 19 * $mob + vw;
+                color: #ffffff;
+                font-family: Roboto-regular;
+            }
+        }
+    }
+    .sticky {
+        position: fixed;
+        top: 0 * $desk + vw;
+        width: 100%;
+        z-index: 200;
+        // box-shadow: 0 1px 4px rgba($color: #000000, $alpha: 1.0);
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .HeaderContainer {
+        position: relative;
+        width: 100%;
+        height: 86 * $tablet + vw;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        .logoContainer {
+            position: absolute;
+            left: 54 * $tablet + vw;
+            width: 119 * $tablet + vw;
+            height: 41 * $tablet + vw;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .adjustBars {
+            position: absolute;
+            right: 61 * $tablet + vw;
+            display: block;
+            color: #002366;
+            font-size: 20 * $tablet + vw;
+        }
+        .navbarContainer {
+            position: relative;
+            display: none;
+            margin-left: 463.5 * $tablet + vw;
+            ul,
+            li {
+                display: flex;
+                font-size: 19 * $tablet + vw;
+                color: #002366;
+                margin-left: 25.5 * $tablet + vw;
+                margin-right: 25.5 * $tablet + vw;
+                font-family: Roboto-regular;
+                cursor: pointer;
+            }
+        }
+        .signInContainer {
+            display: none;
+            position: absolute;
+            // display: flex;
+            justify-content: center;
+            align-items: center;
+            right: 140 * $tablet + vw;
+            cursor: pointer;
+            .userImage {
+                width: 16 * $tablet + vw;
+                height: 16 * $tablet + vw;
+                margin-right: 11 * $tablet + vw;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .signInText {
+                font-size: 19 * $tablet + vw;
+                color: #002366;
+                font-family: Roboto-regular;
+                font-weight: 600;
+            }
+        }
+        .afterSignInContainer {
+            display: none;
+            // display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 495 * $tablet + vw;
+            padding-left: 20 * $tablet + vw;
+            padding-right: 20 * $tablet + vw;
+            width: auto;
+            height: 45 * $tablet + vw;
+            background: #0055ff;
+            border-radius: 7px;
+            cursor: pointer;
+            .userImage {
+                width: 16 * $tablet + vw;
+                height: 16 * $tablet + vw;
+                margin-right: 11 * $tablet + vw;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .signInText {
+                font-size: 19 * $tablet + vw;
+                color: #ffffff;
+                font-family: Roboto-regular;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .adjustBars {
+        display: none;
+    }
+}

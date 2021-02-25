@@ -1,0 +1,40 @@
+$desk: 100 / 1920;
+$tablet: 100 / 768;
+$mob: 100 / 414;
+.blogButtonContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 198 * $desk + vw;
+    height: 48 * $desk + vw;
+    border-radius: 6 * $desk + vw;
+    border: 1 * $desk + vw solid #000000;
+    cursor: pointer;
+    .tagText {
+        font-family: Roboto-regular;
+        font-size: 22 * $desk + vw;
+        margin-left: 20 * $desk + vw;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .blogButtonContainer {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 155 * $mob + vw;
+        height: 37 * $mob + vw;
+        border-radius: 6 * $mob + vw;
+        border: 1 * $mob + vw solid #000000;
+        cursor: pointer;
+        .tagText {
+            font-family: Roboto-regular;
+            font-size: 17 * $mob + vw;
+            margin-left: 16 * $mob + vw;
+        }
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+}
+
+@media only screen and (min-width: 1025px) {
+}

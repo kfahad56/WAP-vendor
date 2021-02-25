@@ -1,0 +1,57 @@
+$desk: 100 / 1920;
+$tablet: 100 / 768;
+$mob: 100 / 414;
+.vacanciesButtonContainer {
+    position: relative;
+    width: 448 * $desk + vw;
+    height: 107 * $desk + vw;
+    background: #ffffff;
+    border: 1 * $desk + vw solid #0055ff;
+    border-radius: 4 * $desk + vw;
+    margin-right: 58 * $desk + vw;
+    margin-bottom: 69 * $desk + vw;
+    .vacanciesHeadText {
+        font-family: Roboto-medium;
+        font-size: 25 * $desk + vw;
+        margin-top: 22 * $desk + vw;
+        margin-left: 32 * $desk + vw;
+    }
+    .viewMoredetails {
+        font-family: Roboto-regular;
+        font-size: 14 * $desk + vw;
+        margin-top: 20 * $desk + vw;
+        margin-left: 32 * $desk + vw;
+        color: #0055ff;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .vacanciesButtonContainer {
+        position: relative;
+        width: 374 * $mob + vw;
+        height: 66 * $mob + vw;
+        background: #ffffff;
+        border: 1 * $mob + vw solid #0055ff;
+        border-radius: 4 * $mob + vw;
+        margin-right: 58 * $mob + vw;
+        margin-bottom: 21 * $mob + vw;
+        
+        .vacanciesHeadText {
+            font-family: Roboto-medium;
+            font-size: 18 * $mob + vw;
+            margin-top: 10 * $mob + vw;
+            margin-left: 7 * $mob + vw;
+        }
+        .viewMoredetails {
+            font-family: Roboto-regular;
+            font-size: 14 * $mob + vw;
+            margin-top: 10 * $mob + vw;
+            margin-left: 7 * $mob + vw;
+            color: #0055ff;
+            cursor: pointer;
+        }
+    }
+
+}

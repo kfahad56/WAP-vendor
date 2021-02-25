@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,yBAAyB,CAAC;EACtB,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;CAClB;;AAED,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;EACpC,AAAA,yBAAyB,CAAC;IACtB,QAAQ,EAAE,QAAQ;IAClB,OAAO,EAAE,IAAI;IACb,SAAS,EAAE,IAAI;IACf,KAAK,EAAE,UAAe;IACtB,eAAe,EAAE,aAAa;GACjC",
+    "sources": [
+        "testimonialcard.scss"
+    ],
+    "names": [],
+    "file": "testimonialcard.css"
+}

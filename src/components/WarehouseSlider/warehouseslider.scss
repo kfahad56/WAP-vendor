@@ -1,0 +1,162 @@
+$desk: 100 / 1920;
+$mob: 100 / 414;
+.warehouseSliderContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: 157 * $desk + vw;
+    @media only screen and (max-width: 800px) {
+        height: unset;
+    }
+    @media only screen and (max-width: 480px) {
+        max-inline-size: fit-content;
+        margin-left: 242 * $mob + vw;
+    }
+    .slideimage {
+        width: 942 * $desk + vw;
+        height: 402 * $desk + vw;
+        margin-right: 20 * $desk + vw;
+        // margin-left: 20 * $desk + vw;
+        @media only screen and (max-width: 800px) {
+            height: 350 * $mob + vw;
+            margin-left: -48 * $mob + vw;
+        }
+        @media only screen and (max-width: 480px) {
+            // width: 355 * $mob + vw;
+            margin-left: -57 * $mob + vw;
+            top: 229px;
+            // margin-left: unset;
+            width: 414 * $mob + vw;
+            height: 189 * $mob + vw;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8 * $desk + vw;
+        }
+    }
+    .carousel .thumb {
+        transition: border 0.15s ease-in;
+        display: inline-block;
+        width: 144 * $desk + vw;
+        height: 104 * $desk + vw;
+        margin-right: 21 * $desk + vw;
+        margin-left: 21 * $desk + vw;
+        white-space: nowrap;
+        overflow: hidden;
+        border: 0px solid #fff !important;
+        padding: 2px;
+        @media only screen and (max-width: 800px) {
+            width: 80 * $mob + vw;
+            height: 80 * $mob + vw;
+            margin-right: 11 * $mob + vw;
+            margin-left: 11 * $mob + vw;
+        }
+    }
+    .carousel {
+        display: flex;
+        margin-left: -40 * $desk + vw;
+    }
+    .carousel .slider-wrapper {
+        overflow: hidden;
+        margin: auto;
+        width: 945 * $desk + vw;
+        transition: height 0.15s ease-in;
+    }
+    // .carousel .slider-wrapper.axis-horizontal .slider {
+    //     margin-left: -31%;
+    // }
+    // .carousel .slider-wrapper.axis-horizontal .slider .slide {
+    //     min-width: 90% !important;
+    // }
+    .carousel .carousel-status {
+        display: none;
+    }
+    .carousel .thumb {
+        margin-left: 10 * $desk + vw !important;
+        margin-right: 10 * $desk + vw !important;
+    }
+    .carousel img {
+        height: 100%;
+        object-fit: cover;
+    }
+    .carousel .thumb.selected,
+    .carousel .thumb:hover {
+        border: 3 * $desk + vw solid #0055ff !important;
+    }
+    .carousel .control-arrow,
+    .carousel.carousel-slider .control-arrow {
+        opacity: 1 !important;
+    }
+    .carousel .control-disabled.control-arrow {
+        opacity: 0 !important;
+        cursor: inherit;
+        display: block !important;
+    }
+    .carousel .control-prev.control-arrow:before {
+        border-right: 35 * $desk + vw solid black;
+    }
+    .carousel .control-next.control-arrow:before {
+        border-left: 35 * $desk + vw solid black;
+    }
+    .carousel .control-next.control-arrow {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 73 * $desk + vw;
+        height: 73 * $desk + vw;
+        top: 171 * $desk + vw;
+        right: 14 * $desk + vw;
+        background: #ffffff;
+        border-radius: 50%;
+        z-index: 10;
+        box-shadow: 0 1 * $desk + vw 4 * $desk + vw rgba(0, 0, 0, 0.3);
+        &:before {
+            content: url("../images/rightArrow.png") !important;
+            transform: scale(0.3);
+            border: 0 !important;
+            position: absolute;
+            left: -27 * $desk + vw;
+            cursor: pointer;
+            opacity: 1;
+        }
+        @media only screen and (max-width: 800px) {
+            right: 3vw;
+        }
+    }
+    .carousel .control-prev.control-arrow {
+        display: none;
+        left: 50 * $desk + vw;
+        @media only screen and (max-width: 800px) {
+            left: 4vw;
+        }
+    }
+    .carousel .control-arrow:before,
+    .carousel.carousel-slider .control-arrow:before {
+        margin: 0 10 * $desk + vw;
+        display: inline-block;
+        border-top: 25 * $desk + vw solid transparent;
+        border-bottom: 25 * $desk + vw solid transparent;
+        content: "";
+    }
+
+    .carousel .slide {
+        background: white !important;
+        // display: flex !important;
+        // justify-content: center !important;
+    }
+}
+@media only screen and (max-width: 480px) {
+    // .thumbs-wrapper axis-vertical{
+    //     display: none !important;
+    // }
+    .carousel .thumbs-wrapper {
+        // margin-left: 20px;
+        overflow: hidden;
+        display: none;
+    }
+}

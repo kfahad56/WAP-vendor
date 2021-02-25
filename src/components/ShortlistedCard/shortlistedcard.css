@@ -1,0 +1,129 @@
+.shortlistedCardContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 16.82292vw;
+  height: 19.53125vw;
+  margin-bottom: 1.04167vw;
+  margin-right: 3.69792vw;
+  margin-left: 0.52083vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0vw 0.15625vw 0.3125vw rgba(0, 0, 0, 0.29);
+}
+
+.shortlistedCardContainer .closeContainer {
+  position: absolute;
+  width: 1.5625vw;
+  height: 1.5625vw;
+  right: -0.78125vw;
+  top: -0.78125vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: #ffffff;
+  opacity: 1;
+  border-radius: 50%;
+  box-shadow: 0 0.05208vw 0.20833vw 0 rgba(0, 0, 0, 0.29);
+}
+
+.shortlistedCardContainer .closeContainer .closeButton {
+  position: absolute;
+  width: 0.67708vw;
+  height: 0.67708vw;
+}
+
+.shortlistedCardContainer .closeContainer .closeButton img {
+  width: 100%;
+  height: 100%;
+}
+
+.shortlistedCardContainer .cardImage {
+  width: 16.82292vw;
+  height: 12.55208vw;
+}
+
+.shortlistedCardContainer .cardImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.shortlistedCardContainer .cardBottomContainer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15.625vw;
+  height: 4.94792vw;
+  margin-left: 0.625vw;
+}
+
+.shortlistedCardContainer .cardBottomContainer .cardText div {
+  font-family: Roboto-regular;
+  font-size: 0.98958vw;
+  margin-bottom: 0.41667vw;
+}
+
+.shortlistedCardContainer .cardBottomContainer .rightArrowContainer {
+  position: relative;
+  width: 1.45833vw;
+  height: 1.45833vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: #ffa702;
+  opacity: 1;
+  border-radius: 50%;
+}
+
+.shortlistedCardContainer .cardBottomContainer .rightArrowContainer .rightButton {
+  position: absolute;
+  width: 0.72917vw;
+  height: 0.57292vw;
+}
+
+.shortlistedCardContainer .cardBottomContainer .rightArrowContainer .rightButton img {
+  width: 100%;
+  height: 100%;
+}
+
+.shortlistedCardContainer .ShareContainer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 15.625vw;
+  top: 17.44792vw;
+  margin-left: 0.625vw;
+}
+
+.shortlistedCardContainer .ShareContainer .shareText {
+  font-family: Roboto-regular;
+  font-size: 0.67708vw;
+  color: #747474;
+  margin-right: 0.98958vw;
+}
+
+.shortlistedCardContainer .ShareContainer .whatsappImage {
+  width: 1.14583vw;
+  height: 1.14583vw;
+  margin-right: 1.14583vw;
+  cursor: pointer;
+}
+
+.shortlistedCardContainer .ShareContainer .whatsappImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.shortlistedCardContainer .ShareContainer .mailImage {
+  width: 1.14583vw;
+  height: 0.98958vw;
+  cursor: pointer;
+}
+
+.shortlistedCardContainer .ShareContainer .mailImage img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=shortlistedcard.css.map */

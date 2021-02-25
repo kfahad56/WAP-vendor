@@ -1,0 +1,115 @@
+$desk: 100 / 1920;
+.shortlistedCardContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 323 * $desk + vw;
+    height: 375 * $desk + vw;
+    margin-bottom: 20 * $desk + vw;
+    margin-right: 71 * $desk + vw;
+    margin-left: 10 * $desk + vw;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0 * $desk + vw 3 * $desk + vw 6 * $desk + vw rgba(0, 0, 0, 0.29);
+    .closeContainer {
+        position: absolute;
+        width: 30 * $desk + vw;
+        height: 30 * $desk + vw;
+        right: -15 * $desk + vw;
+        top: -15 * $desk + vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background: #ffffff;
+        opacity: 1;
+        border-radius: 50%;
+        box-shadow: 0 1 * $desk + vw 4 * $desk + vw 0 rgba(0, 0, 0, 0.29);
+        .closeButton {
+            position: absolute;
+            width: 13 * $desk + vw;
+            height: 13 * $desk + vw;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .cardImage {
+        width: 323 * $desk + vw;
+        height: 241 * $desk + vw;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .cardBottomContainer {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 300 * $desk + vw;
+        height: 95 * $desk + vw;
+        margin-left: 12 * $desk + vw;
+        // margin: auto;
+        .cardText div {
+            font-family: Roboto-regular;
+            font-size: 19 * $desk + vw;
+            margin-bottom: 8 * $desk + vw;
+        }
+        .rightArrowContainer {
+            position: relative;
+            width: 28 * $desk + vw;
+            height: 28 * $desk + vw;
+            // right: -54.5 * $desk + vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            background: #ffa702;
+            opacity: 1;
+            border-radius: 50%;
+            .rightButton {
+                position: absolute;
+                width: 14 * $desk + vw;
+                height: 11 * $desk + vw;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .ShareContainer {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 300 * $desk + vw;
+        top: 335 * $desk + vw;
+        margin-left: 12 * $desk + vw;
+        .shareText {
+            font-family: Roboto-regular;
+            font-size: 13 * $desk + vw;
+            color: #747474;
+            margin-right: 19 * $desk + vw;
+        }
+        .whatsappImage {
+            width: 22 * $desk + vw;
+            height: 22 * $desk + vw;
+            margin-right: 22 * $desk + vw;
+            cursor: pointer;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .mailImage {
+            width: 22 * $desk + vw;
+            height: 19 * $desk + vw;
+            cursor: pointer;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

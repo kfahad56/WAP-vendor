@@ -1,0 +1,246 @@
+$desk: 100 / 1920;
+$tablet: 100 / 768;
+$mob: 100 / 414;
+.SearchBarContainer {
+    position: sticky;
+    display: flex;
+    top: 140 * $desk + vw;
+    width: 100%;
+    height: 58 * $desk + vw;
+    border-top: 0.800000011920929 * $desk + vw solid #c7c7c7;
+    border-bottom: 0.800000011920929 * $desk + vw solid #c7c7c7;
+    background-color: #ffffff;
+    z-index: 10;
+    .leftSection {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 720 * $desk + vw;
+        border-right: 0.800000011920929 * $desk + vw solid #c7c7c7;
+        height: 58 * $desk + vw;
+        .searchBoxContainer {
+            display: flex;
+            align-items: center;
+            margin-left: 186 * $desk + vw;
+            .searchImage {
+                width: 29 * $desk + vw;
+                height: 29 * $desk + vw;
+                margin-right: 27 * $desk + vw;
+                z-index: 2;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .stateSuggestionContainer {
+                .inputBox {
+                    position: relative;
+                    z-index: 10 !important;
+                    input {
+                        outline: 0;
+                        border: 0;
+                        background: transparent;
+                        font-family: Roboto-regular;
+                        font-size: 17 * $desk + vw;
+                        z-index: 2;
+                    }
+                    ::placeholder {
+                        color: #000000;
+                        z-index: 2;
+                    }
+                }
+                .suggestions {
+                    position: absolute;
+                    width: 500 * $desk + vw;
+                    min-height: 263 * $desk + vw;
+                    max-height: 12.1vw;
+                    background: white;
+                    z-index: 1;
+                    box-shadow: 0 1 * $desk + vw 4 * $desk + vw rgba(0, 0, 0, 0.3);
+                    // border: 1px solid #51a8b1;
+                    top: -15 * $desk + vw;
+                    left: 160 * $desk + vw;
+                    right: 0;
+                    overflow: auto;
+                    .closeButtonContainer {
+                        position: absolute;
+                        top: 33 * $desk + vw;
+                        right: 15 * $desk + vw;
+                        width: 25 * $desk + vw;
+                        height: 25 * $desk + vw;
+                        cursor: pointer;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .suggestionData {
+                        display: flex;
+                        cursor: pointer;
+                        flex-direction: column;
+                        padding: 16 * $desk + vw 7 * $desk + vw 7 * $desk + vw 12 * $desk + vw;
+                        .otherData {
+                            display: flex;
+                            p {
+                                margin-top: 70 * $desk + vw;
+                                padding-left: 10 * $desk + vw;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .rightSection {
+        position: relative;
+        width: 1200 * $desk + vw;
+        display: flex;
+        align-items: center;
+        .roundButton {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 127 * $desk + vw;
+            height: 37 * $desk + vw;
+            border-radius: 33 * $desk + vw;
+            background: #0055ff;
+            margin-left: 54 * $desk + vw;
+            cursor: pointer;
+            div {
+                font-family: Roboto-regular;
+                font-size: 17 * $desk + vw;
+                color: #ffffff;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 480px) {
+    .SearchBarContainer {
+        position: fixed;
+        display: inline-block;
+        top: 100 * $mob + vw;
+        width: 100%;
+        height: 65 * $mob + vw;
+        border-top: 0.800000011920929 * $mob + vw solid #c7c7c7;
+        border-bottom: 0.800000011920929 * $mob + vw solid #c7c7c7;
+        background-color: #ffffff;
+        z-index: 10;
+        .leftSection {
+            position: relative;
+            display: flex;
+            align-items: left;
+            width: 421 * $mob + vw;
+            border-right: 0.800000011920929 * $mob + vw solid #c7c7c7;
+            height: 55 * $mob + vw;
+            .searchBoxContainer {
+                display: flex;
+                width: 359 * $mob + vw;
+                justify-content: space-between;
+                align-items: center;
+                margin-left: 30 * $mob + vw;
+                .searchImage {
+                    width: 25 * $mob + vw;
+                    height: 25 * $mob + vw;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                input {
+                    outline: 0;
+                    border: 0;
+                    background: transparent;
+                    font-family: Roboto-regular;
+                    font-size: 12 * $mob + vw !important;
+                }
+                ::placeholder {
+                    color: #000000;
+                }
+                .mobMap {
+                    width: 20 * $mob + vw;
+                    height: 20 * $mob + vw;
+                    margin-left: 153 * $mob + vw;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+            .closeButtonContainerMap {
+                position: absolute;
+                top: 33 * $mob + vw;
+                right: 43 * $mob + vw;
+                width: 20 * $mob + vw;
+                height: 20 * $mob + vw;
+                cursor: pointer;
+                z-index: 111;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .rightSection {
+            position: relative;
+            width: 421 * $mob + vw;
+            display: flex;
+            align-items: center;
+            height: 55 * $mob + vw;
+            border-right: 0.19324vw solid #c7c7c7;
+            border-top: 0.800000011920929 * $mob + vw solid #c7c7c7;
+            border-bottom: 0.800000011920929 * $mob + vw solid #c7c7c7;
+            background-color: #ffffff;
+            .roundButton {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 83 * $mob + vw;
+                height: 24 * $mob + vw;
+                border-radius: 33 * $mob + vw;
+                background: #0055ff;
+                margin-left: 30 * $mob + vw;
+                margin-top: 10 * $mob + vw;
+                margin-bottom: 7 * $mob + vw;
+
+                div {
+                    font-family: Roboto-regular;
+                    font-size: 11 * $mob + vw;
+                    color: #ffffff;
+                }
+            }
+            .mobFilter {
+                margin-left: 142 * $mob + vw;
+                margin-top: 5 * $mob + vw;
+                width: 23 * $mob + vw;
+                height: 25 * $mob + vw;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .mobMap {
+        display: none;
+    }
+    .closeButtonContainerMap {
+        display: none;
+    }
+    .mobFilter {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .mobMap {
+        display: none;
+    }
+    .closeButtonContainerMap {
+        display: none;
+    }
+    .mobFilter {
+        display: none;
+    }
+}

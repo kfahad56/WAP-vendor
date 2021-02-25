@@ -1,0 +1,197 @@
+$desk: 100 / 1920;
+$tablet: 100 / 768;
+$mob: 100 / 414;
+.optBoxContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 494 * $desk + vw;
+    height: 470 * $desk + vw;
+    background: rgba(219, 219, 219, 0.27);
+    border: 1 * $desk + vw solid rgba(112, 112, 112, 0.29);
+    border-radius: 8 * $desk + vw;
+    .closeButtonContainer {
+        position: absolute;
+        top: 15.4 * $desk + vw;
+        right: 15.4 * $desk + vw;
+        width: 15 * $desk + vw;
+        height: 15 * $desk + vw;
+        cursor: pointer;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .loginHeadText {
+        width: 211 * $desk + vw;
+        font-family: Roboto-bold;
+        font-size: 29 * $desk + vw;
+        line-height: 38 * $desk + vw;
+        margin-top: 32 * $desk + vw;
+        margin-left: 44 * $desk + vw;
+        margin-bottom: 25 * $desk + vw;
+    }
+    p {
+        width: 407 * $desk + vw;
+        font-family: Roboto-regular;
+        font-size: 17 * $desk + vw;
+        line-height: 23 * $desk + vw;
+        margin-left: 44 * $desk + vw;
+        margin-bottom: 38 * $desk + vw;
+    }
+    .otpAdjustContainer {
+        display: flex;
+        align-items: center;
+        margin-left: 44 * $desk + vw;
+        margin-bottom: 15 * $desk + vw;
+        input {
+            outline: 0;
+            width: 59 * $desk + vw;
+            height: 58 * $desk + vw;
+            margin-right: 3.5 * $desk + vw;
+            margin-left: 3.5 * $desk + vw;
+            color: #000000;
+            text-align: center;
+            font-size: 20 * $desk + vw;
+            border: 1 * $desk + vw solid rgba(112, 112, 112, 0.3);
+        }
+        .divideBorder {
+            width: 14 * $desk + vw;
+            height: 0 * $desk + vw;
+            border: 1 * $desk + vw solid #707070;
+            opacity: 0.3;
+        }
+    }
+    .resendText {
+        font-family: Roboto-medium;
+        font-size: 14 * $desk + vw;
+        margin-left: 370 * $desk + vw;
+        cursor: pointer;
+        color: #0055ff;
+    }
+    .proceedButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 385 * $desk + vw;
+        height: 74 * $desk + vw;
+        background: #0055ff;
+        border-radius: 4 * $desk + vw;
+        cursor: pointer;
+        margin: auto;
+        .btnText {
+            font-family: Roboto-regular;
+            font-size: 24 * $desk + vw;
+            color: #ffffff;
+        }
+    }
+}
+@media only screen and (max-width: 480px) {
+    .optBoxContainer1 {
+        position: fixed;
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: #F9F9F9 0% 0% no-repeat padding-box;
+        z-index: 1234;
+        top: 0;
+        .closeButtonContainer {
+            position: absolute;
+            top: 15.4 * $mob + vw;
+            right: 15.4 * $mob + vw;
+            width: 15 * $mob + vw;
+            height: 15 * $mob + vw;
+            cursor: pointer;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .loginHeadText {
+            width: 220 * $mob + vw;
+                font-family: Roboto-bold;
+                font-size: 29 * $mob + vw;
+                line-height: 38 * $mob + vw;
+                margin-top: 89 * $mob + vw;
+                margin-left: 104 * $mob + vw;
+                margin-bottom: 47 * $mob + vw;
+        }
+         p{
+            top: 144px;
+            margin-left: 69 * $mob + vw;
+            margin-top: 8 * $mob + vw;
+            width: 276px;
+            height: 50px;
+            font: Regular 15px/20px var(--unnamed-font-family-roboto);
+            letter-spacing: var(--unnamed-character-spacing-0);
+            text-align: left;
+            font: Regular 15px/20px Roboto;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 1;
+         }
+        .otpAdjustContainer {
+            display: flex;
+                align-items: center;
+                margin-bottom: 15 * $mob + vw;
+                margin-top: 47 * $mob + vw;
+                input {
+                    outline: 0;
+                    width: 50 * $mob + vw;
+                    height: 58 * $mob + vw;
+                    margin-right: 3.5 * $mob + vw;
+                    margin-left: 10.5 * $mob + vw;
+                    color: #000000;
+                    text-align: center;
+                    font-size: 19 * $mob + vw;
+                    border: 1 * $mob + vw solid rgba(112, 112, 112, 0.3);
+                }
+                .divideBorder {
+                    width: 14 * $mob + vw;
+                    height: 0 * $mob + vw;
+                    border: 1 * $mob + vw solid #707070;
+                    opacity: 0.3;
+                }
+        }
+        .resendText {
+            font-family: Roboto-medium;
+            font-size: 14 * $mob + vw;
+            width: 89 * $mob +vw;
+            margin-left: 310 * $mob + vw;
+            
+            margin-bottom: 50 * $mob + vw;
+            height: 19 * $mob + vw;
+            cursor: pointer;
+            color: #0055ff;
+        }
+        .proceedButton {
+            margin: auto;
+            margin-top: 6 * $mob + vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 174 * $mob + vw;
+            height: 45 * $mob + vw;
+            background: #0055ff;
+            border-radius: 4 * $mob + vw;
+            cursor: pointer;
+            margin-bottom: 27 * $mob + vw;
+            .btnText {
+                font-family: Roboto-regular;
+                font-size: 20 * $mob + vw;
+                color: #ffffff;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .optBoxContainer1{
+        display: none;
+    }
+}
+@media only screen and (min-width: 1025px) {
+    .optBoxContainer1{
+        display: none;
+    }
+}

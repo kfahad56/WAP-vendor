@@ -1,0 +1,154 @@
+.videoBoxContainer {
+  position: relative;
+}
+
+.videoBoxContainer .videoText {
+  font-family: Roboto-regular;
+  font-size: 1.14583vw;
+  margin-bottom: 1.71875vw;
+  color: #707070;
+}
+
+.videoBoxContainer .videoSection {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 31.66667vw;
+  height: 19.6875vw;
+}
+
+.videoBoxContainer .videoSection iframe {
+  border-radius: 0.36458vw;
+  width: 31.66667vw;
+  height: 19.6875vw;
+}
+
+.videoBoxContainer .videoSection .videoImage {
+  position: absolute;
+  width: 31.66667vw;
+  height: 19.6875vw;
+}
+
+.videoBoxContainer .videoSection .videoImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.videoBoxContainer .videoSection .playbutton {
+  position: absolute;
+  width: 4.89583vw;
+  height: 4.89583vw;
+  cursor: pointer;
+}
+
+.videoBoxContainer .videoSection .playbutton img {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  .videoBoxContainer {
+    position: relative;
+  }
+  .videoBoxContainer .videoText {
+    font-family: Roboto-regular;
+    font-size: 4.10628vw;
+    margin-bottom: 3.62319vw;
+  }
+  .videoBoxContainer .videoSection {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90.57971vw;
+    height: 56.28019vw;
+    margin-bottom: 4.34783vw;
+  }
+  .videoBoxContainer .videoSection iframe {
+    border-radius: 1.69082vw;
+    width: 90.57971vw;
+    height: 56.28019vw;
+  }
+  .videoBoxContainer .videoSection .videoImage {
+    position: absolute;
+    width: 90.57971vw;
+    height: 56.28019vw;
+  }
+  .videoBoxContainer .videoSection .videoImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .videoBoxContainer .videoSection .playbutton {
+    position: absolute;
+    width: 22.70531vw;
+    height: 22.70531vw;
+    cursor: pointer;
+  }
+  .videoBoxContainer .videoSection .playbutton img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .videoBoxContainer {
+    position: relative;
+  }
+  .videoBoxContainer .videoText {
+    font-family: Roboto-regular;
+    font-size: 1.5625vw;
+    margin-bottom: 1.5625vw;
+  }
+  .videoBoxContainer .videoSection {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 40.625vw;
+    height: 25.26042vw;
+  }
+  .videoBoxContainer .videoSection iframe {
+    border-radius: 0.91146vw;
+    width: 40.625vw;
+    height: 25.26042vw;
+  }
+  .videoBoxContainer .videoSection .videoImage {
+    position: absolute;
+    width: 40.625vw;
+    height: 25.26042vw;
+  }
+  .videoBoxContainer .videoSection .videoImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .videoBoxContainer .videoSection .playbutton {
+    position: absolute;
+    width: 12.23958vw;
+    height: 12.23958vw;
+    cursor: pointer;
+  }
+  .videoBoxContainer .videoSection .playbutton img {
+    width: 100%;
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=videobox.css.map */

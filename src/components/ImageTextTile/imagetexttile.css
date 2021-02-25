@@ -1,0 +1,51 @@
+.ImageTextTileContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 1.71875vw;
+  width: 20.83333vw;
+}
+
+.ImageTextTileContainer .imageArea {
+  width: 2.03125vw;
+  height: 2.13542vw;
+  margin-right: 1.61458vw;
+}
+
+.ImageTextTileContainer .imageArea img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.ImageTextTileContainer .textArea {
+  font-family: Roboto-regular;
+  font-size: 1.04167vw;
+  margin-right: 6.45833vw;
+}
+
+@media only screen and (max-width: 480px) {
+  .ImageTextTileContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 85.74879vw;
+    height: 18.59903vw;
+  }
+  .ImageTextTileContainer .imageArea {
+    width: 12.07729vw;
+    height: 12.07729vw;
+    margin-right: 5.31401vw;
+  }
+  .ImageTextTileContainer .imageArea img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .ImageTextTileContainer .textArea {
+    font-family: Roboto-regular;
+    font-size: 3.62319vw;
+    margin-right: 29.95169vw;
+  }
+}
+/*# sourceMappingURL=imagetexttile.css.map */

@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("./Roboto-Regular.ttf");
+}
+
+.appBar {
+  position: relative !important;
+}
+
+.title {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.MuiDialogContent-root {
+  overflow: unset !important;
+}
+
+.MuiDialogActions-root {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.MuiDialog-paperFullScreen {
+  width: 85% !important;
+  height: 80% !important;
+}
+/*# sourceMappingURL=termspopup.css.map */
